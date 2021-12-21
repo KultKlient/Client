@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutionException;
 /*/-------------------------------------------------/*/
 
 public class Installer {
-    String API_URL = "https://api.mathaxclient.xyz/Installer/";
+    String API_URL = "https://kultklient.github.io/kultklient.github.io-api/Installer/";
 
     InstallerMeta INSTALLER_META;
     List<String> CLIENT_VERSIONS;
@@ -184,7 +184,7 @@ public class Installer {
 
             String jarName = "MatHax_Legacy-v" + selectedClientVersion + "-Fabric_" + selectedGameVersion + ".jar";
 
-            String downloadURL = "https://api.mathaxclient.xyz/Download/Legacy/" + selectedGameVersion.replace(".", "-") + "/" + jarName;
+            String downloadURL = "https://kultklient.github.io/kultklient.github.io-api//Download/Legacy/" + selectedGameVersion.replace(".", "-") + "/" + jarName;
 
             File saveLocation = getStorageDirectory().resolve(jarName).toFile();
 

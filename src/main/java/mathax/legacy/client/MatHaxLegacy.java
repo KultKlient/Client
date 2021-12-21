@@ -81,8 +81,8 @@ public class MatHaxLegacy implements ClientModInitializer {
     public static final Logger LOG = LogManager.getLogger();
     public static String logPrefix = "[MatHax Legacy] ";
 
-    public static final String URL = "https://mathaxclient.xyz/";
-    public static final String API_URL = "https://api.mathaxclient.xyz/";
+    public static final String URL = "https://klitekult.github.io";
+    public static final String API_URL = "https://kultklient.github.io/kultklient.github.io-api/";
 
     public static List<String> getDeveloperUUIDs() {
         return Arrays.asList(

@@ -10,9 +10,9 @@
   "icon": "assets/mathaxlegacy/textures/icons/icon.png",
   "license": "GPL-3.0",
   "contact": {
-    "homepage": "https://mathaxclient.xyz",
-    "discord": "https://mathaxclient.xyz/Discord",
-    "issues": "https://mathaxclient.xyz/Discord"
+    "homepage": "https://kultklient.github.io/",
+    "discord": "https://kultklient.github.io//Discord",
+    "issues": "https://kultklient.github.io//Discord"
   },
   "environment": "client",
   "entrypoints": {
@@ -31,9 +31,9 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.website": "https://mathaxclient.xyz",
-        "modmenu.discord": "https://mathaxclient.xyz/Discord",
-        "modmenu.issues": "https://mathaxclient.xyz/Discord"
+        "modmenu.website": "https://kultklient.github.io/",
+        "modmenu.discord": "https://kultklient.github.io//Discord",
+        "modmenu.issues": "https://kultklient.github.io//Discord"
       }
     }
   },

@@ -183,7 +183,7 @@ public class Notebot extends Module {
             table.row();
 
             WButton guide = table.add(theme.button("Guide")).expandX().widget();
-            guide.action = () -> Util.getOperatingSystem().open("https://mathaxclient.xyz/Notebot-Guide");
+            guide.action = () -> Util.getOperatingSystem().open("https://kultklient.github.io//Notebot-Guide");
         }
 
         return table;

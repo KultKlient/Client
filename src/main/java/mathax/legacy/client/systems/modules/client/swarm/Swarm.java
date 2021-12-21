@@ -66,7 +66,7 @@ public class Swarm extends Module {
         stop.action = this::close;
 
         WButton guide = list.add(theme.button("Guide")).expandX().widget();
-        guide.action = () -> Util.getOperatingSystem().open("https://mathaxclient.xyz/Swarm-Guide");
+        guide.action = () -> Util.getOperatingSystem().open("https://kultklient.github.io//Swarm-Guide");
 
         return list;
     }
