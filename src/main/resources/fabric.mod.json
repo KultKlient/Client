@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "MatHax Legacy",
-  "id": "mathaxlegacy",
+  "name": "KultKlient Legacy",
+  "id": "kultklientlegacy",
   "version": "${version}",
-  "description": "MatHax Legacy is an advanced Minecraft utility client for Fabric forked from Meteor Client.",
+  "description": "KultKlient Legacy is an advanced Minecraft utility client for Fabric forked from Meteor Client.",
   "authors": [
-    "Matejko06"
+    "KultKollektive"
   ],
-  "icon": "assets/mathaxlegacy/textures/icons/icon.png",
+  "icon": "assets/kultklientlegacy/textures/icons/icon.png",
   "license": "GPL-3.0",
   "contact": {
     "homepage": "https://kultklient.github.io/",
@@ -17,23 +17,24 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "mathax.legacy.client.MatHaxLegacy"
+      "kultklient.legacy.client.KultKlientLegacy"
     ]
   },
   "mixins": [
-    "mathaxlegacy.mixins.json",
-    "mathaxlegacy-canvas.mixins.json",
-    "mathaxlegacy-sodium.mixins.json",
-    "mathaxlegacy-indigo.mixins.json",
-    "mathaxlegacy-baritone.mixins.json"
+    "kultklientlegacy.mixins.json",
+    "kultklientlegacy-canvas.mixins.json",
+    "kultklientlegacy-sodium.mixins.json",
+    "kultklientlegacy-indigo.mixins.json",
+    "kultklientlegacy-baritone.mixins.json"
   ],
-  "accessWidener": "mathaxlegacy.accesswidener",
+  "accessWidener": "kultklientlegacy.accesswidener",
   "custom": {
     "modmenu": {
       "links": {
         "modmenu.website": "https://kultklient.github.io/",
         "modmenu.discord": "https://kultklient.github.io//Discord",
-        "modmenu.issues": "https://kultklient.github.io//Discord"
+        "modmenu.issues": "https://kultklient.github.io//Discord",
+        "modmenu.dupe": "https://www.youtube.com/watch?v=QDia3e12czc"
       }
     }
   },
