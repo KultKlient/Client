@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.world;
+package kult.legacy.klient.events.world;
 
 public class TickEvent {
     public static class Pre extends TickEvent {

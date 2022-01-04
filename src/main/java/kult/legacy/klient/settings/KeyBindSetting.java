@@ -1,13 +1,13 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.events.kultklientlegacy.MouseButtonEvent;
-import kultklient.legacy.client.gui.widgets.WKeyBind;
-import kultklient.legacy.client.utils.misc.KeyBind;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.events.kultklientlegacy.MouseButtonEvent;
+import kult.legacy.klient.gui.widgets.WKeyBind;
+import kult.legacy.klient.utils.misc.KeyBind;
+import kult.legacy.klient.utils.misc.input.KeyAction;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.function.Consumer;

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.mixininterface.IClientPlayerInteractionManager;
+import kult.legacy.klient.mixininterface.IClientPlayerInteractionManager;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -12,7 +12,7 @@ import net.minecraft.screen.slot.SlotActionType;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class InvUtils {
     private static final Action ACTION = new Action();

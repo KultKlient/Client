@@ -1,4 +1,4 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import net.minecraft.client.util.math.MatrixStack;
 

@@ -1,16 +1,16 @@
-package kultklient.legacy.client.utils.entity;
+package kult.legacy.klient.utils.entity;
 
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.LongBidirectionalIterator;
 import it.unimi.dsi.fastutil.longs.LongSortedSet;
-import kultklient.legacy.client.mixin.EntityTrackingSectionAccessor;
-import kultklient.legacy.client.mixin.SectionedEntityCacheAccessor;
-import kultklient.legacy.client.mixin.SimpleEntityLookupAccessor;
-import kultklient.legacy.client.mixin.WorldAccessor;
-import kultklient.legacy.client.mixininterface.IExplosion;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerEntity;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.mixin.EntityTrackingSectionAccessor;
+import kult.legacy.klient.mixin.SectionedEntityCacheAccessor;
+import kult.legacy.klient.mixin.SimpleEntityLookupAccessor;
+import kult.legacy.klient.mixin.WorldAccessor;
+import kult.legacy.klient.mixininterface.IExplosion;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerEntity;
+import kult.legacy.klient.utils.player.PlayerUtils;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BlockEntity;
@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Predicate;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class EntityUtils {
     public static boolean isAttackable(EntityType<?> type) {

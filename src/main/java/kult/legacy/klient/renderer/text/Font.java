@@ -1,8 +1,8 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
-import kultklient.legacy.client.renderer.Mesh;
-import kultklient.legacy.client.utils.render.ByteTexture;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.renderer.Mesh;
+import kult.legacy.klient.utils.render.ByteTexture;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.texture.AbstractTexture;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.stb.STBTTFontinfo;

@@ -1,27 +1,27 @@
-package kultklient.legacy.client.utils;
+package kult.legacy.klient.utils;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2IntArrayMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.gui.screens.TitleScreen;
-import kultklient.legacy.client.mixin.ClientPlayNetworkHandlerAccessor;
-import kultklient.legacy.client.mixin.MinecraftClientAccessor;
-import kultklient.legacy.client.mixin.MinecraftServerAccessor;
-import kultklient.legacy.client.mixininterface.IMinecraftClient;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.client.DiscordRPC;
-import kultklient.legacy.client.systems.modules.render.BetterTooltips;
-import kultklient.legacy.client.systems.modules.world.Timer;
-import kultklient.legacy.client.utils.player.EChestMemory;
-import kultklient.legacy.client.utils.render.PeekScreen;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.world.BlockEntityIterator;
-import kultklient.legacy.client.utils.world.ChunkIterator;
-import kultklient.legacy.client.utils.world.Dimension;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.gui.screens.TitleScreen;
+import kult.legacy.klient.mixin.ClientPlayNetworkHandlerAccessor;
+import kult.legacy.klient.mixin.MinecraftClientAccessor;
+import kult.legacy.klient.mixin.MinecraftServerAccessor;
+import kult.legacy.klient.mixininterface.IMinecraftClient;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.client.DiscordRPC;
+import kult.legacy.klient.systems.modules.render.BetterTooltips;
+import kult.legacy.klient.systems.modules.world.Timer;
+import kult.legacy.klient.utils.player.EChestMemory;
+import kult.legacy.klient.utils.render.PeekScreen;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.world.BlockEntityIterator;
+import kult.legacy.klient.utils.world.ChunkIterator;
+import kult.legacy.klient.utils.world.Dimension;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ShulkerBoxBlock;
@@ -54,7 +54,7 @@ import java.io.InputStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.glfw.GLFW.*;
 
 public class Utils {

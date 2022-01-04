@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
 
 public abstract class WTooltip extends WContainer implements WRoot {
     private boolean valid;

@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.systems.modules.render.BetterTooltips;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.systems.modules.render.BetterTooltips;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.gui.screen.ingame.ShulkerBoxScreen;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
@@ -14,7 +14,7 @@ import net.minecraft.screen.ShulkerBoxScreenHandler;
 import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class PeekScreen extends ShulkerBoxScreen {
     private final Identifier TEXTURE = new Identifier("textures/gui/container/shulker_box.png");

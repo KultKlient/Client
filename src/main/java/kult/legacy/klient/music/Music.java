@@ -1,12 +1,12 @@
-package kultklient.legacy.client.music;
+package kult.legacy.klient.music;
 
 import com.sedmelluq.discord.lavaplayer.format.StandardAudioDataFormats;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
 import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import kultklient.legacy.client.utils.music.PlaylistUtils;
-import kultklient.legacy.client.utils.music.StreamPlayer;
+import kult.legacy.klient.utils.music.PlaylistUtils;
+import kult.legacy.klient.utils.music.StreamPlayer;
 
 public class Music {
     public static DefaultAudioPlayerManager playerManager;

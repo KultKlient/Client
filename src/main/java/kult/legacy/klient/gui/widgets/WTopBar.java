@@ -1,15 +1,15 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.Tabs;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WPressable;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.Tabs;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WPressable;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.gui.screen.Screen;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.glfw.GLFW.glfwSetCursorPos;
 
 public abstract class WTopBar extends WHorizontalList {

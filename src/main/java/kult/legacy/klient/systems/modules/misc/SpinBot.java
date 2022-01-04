@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.settings.IntSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.player.EXPThrower;
-import kultklient.legacy.client.utils.player.Rotations;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.settings.IntSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.player.EXPThrower;
+import kult.legacy.klient.utils.player.Rotations;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.EnderPearlItem;
 import net.minecraft.item.ExperienceBottleItem;

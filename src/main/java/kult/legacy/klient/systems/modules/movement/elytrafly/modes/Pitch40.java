@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.modules.movement.elytrafly.modes;
+package kult.legacy.klient.systems.modules.movement.elytrafly.modes;
 
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.systems.modules.movement.elytrafly.ElytraFlightMode;
-import kultklient.legacy.client.systems.modules.movement.elytrafly.ElytraFlightModes;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.systems.modules.movement.elytrafly.ElytraFlightMode;
+import kult.legacy.klient.systems.modules.movement.elytrafly.ElytraFlightModes;
 
 public class Pitch40 extends ElytraFlightMode {
     private boolean pitchingDown = true;

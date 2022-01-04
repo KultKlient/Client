@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
 public class GameLeftEvent {
     private static final GameLeftEvent INSTANCE = new GameLeftEvent();

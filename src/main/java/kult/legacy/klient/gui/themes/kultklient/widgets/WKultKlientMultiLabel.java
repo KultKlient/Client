@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.WMultiLabel;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.WMultiLabel;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WKultKlientMultiLabel extends WMultiLabel implements KultKlientWidget {
     public WKultKlientMultiLabel(String text, boolean title, double maxWidth) {

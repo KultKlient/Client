@@ -1,6 +1,6 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.mixininterface.IExplosionS2CPacket;
+import kult.legacy.klient.mixininterface.IExplosionS2CPacket;
 import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

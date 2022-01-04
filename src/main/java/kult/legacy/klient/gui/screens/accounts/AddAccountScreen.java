@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.screens.accounts;
+package kult.legacy.klient.gui.screens.accounts;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
 
 public abstract class AddAccountScreen extends WindowScreen {
     public final AccountsScreen parent;

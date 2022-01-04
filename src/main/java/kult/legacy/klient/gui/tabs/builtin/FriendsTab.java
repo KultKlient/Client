@@ -1,23 +1,23 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WSection;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.pressable.WMinus;
-import kultklient.legacy.client.gui.widgets.pressable.WPlus;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.ColorSetting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.Settings;
-import kultklient.legacy.client.systems.friends.Friend;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WSection;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.pressable.WMinus;
+import kult.legacy.klient.gui.widgets.pressable.WPlus;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.ColorSetting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.Settings;
+import kult.legacy.klient.systems.friends.Friend;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.client.gui.screen.Screen;
 
 public class FriendsTab extends Tab {

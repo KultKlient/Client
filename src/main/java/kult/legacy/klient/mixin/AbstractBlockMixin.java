@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.AmbientOcclusionEvent;
-import kultklient.legacy.client.events.world.CollisionShapeEvent;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.AmbientOcclusionEvent;
+import kult.legacy.klient.events.world.CollisionShapeEvent;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;

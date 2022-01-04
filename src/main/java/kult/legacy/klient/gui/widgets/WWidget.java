@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.BaseWidget;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.BaseWidget;
 
 public abstract class WWidget implements BaseWidget {
     public boolean visible = true;

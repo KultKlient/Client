@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.render.hud.DoubleTextHudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.TripleTextHudElement;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.render.hud.DoubleTextHudElement;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.TripleTextHudElement;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

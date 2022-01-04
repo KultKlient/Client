@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
 public enum Safety {
     Safe,

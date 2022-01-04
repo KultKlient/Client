@@ -1,9 +1,9 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.BoatMoveEvent;
-import kultklient.legacy.client.systems.modules.movement.BoatFly;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.BoatMoveEvent;
+import kult.legacy.klient.systems.modules.movement.BoatFly;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.entity.vehicle.BoatEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

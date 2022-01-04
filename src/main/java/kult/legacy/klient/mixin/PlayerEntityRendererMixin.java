@@ -1,9 +1,9 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.render.Chams;
-import kultklient.legacy.client.systems.modules.render.HandView;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Chams;
+import kult.legacy.klient.systems.modules.render.HandView;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.RenderLayer;

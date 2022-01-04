@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets.pressable;
+package kult.legacy.klient.gui.themes.meteor.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.utils.Utils;
 
 public class WMeteorCheckbox extends WCheckbox implements MeteorWidget {
     private double animProgress;

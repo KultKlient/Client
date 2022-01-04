@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.screens;
+package kult.legacy.klient.gui.screens;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.systems.modules.render.marker.BaseMarker;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.systems.modules.render.marker.BaseMarker;
 
 public class MarkerScreen extends WindowScreen {
     private final BaseMarker marker;

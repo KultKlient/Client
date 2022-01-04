@@ -1,13 +1,13 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.render.Render2DEvent;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.systems.modules.render.MountHUD;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.render.Render2DEvent;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.render.MountHUD;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.network.ClientPlayerEntity;

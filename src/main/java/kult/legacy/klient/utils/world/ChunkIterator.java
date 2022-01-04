@@ -1,13 +1,13 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.util.math.ChunkSectionPos;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.ChunkStatus;
 
 import java.util.Iterator;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ChunkIterator implements Iterator<Chunk> {
     private final int px, pz;

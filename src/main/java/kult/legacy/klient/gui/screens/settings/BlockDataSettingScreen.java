@@ -1,17 +1,17 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.settings.BlockDataSetting;
-import kultklient.legacy.client.settings.IBlockData;
-import kultklient.legacy.client.utils.misc.IChangeable;
-import kultklient.legacy.client.utils.misc.ICopyable;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.misc.Names;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.settings.BlockDataSetting;
+import kult.legacy.klient.settings.IBlockData;
+import kult.legacy.klient.utils.misc.IChangeable;
+import kult.legacy.klient.utils.misc.ICopyable;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.Names;
 import net.minecraft.block.Block;
 import net.minecraft.util.registry.Registry;
 import org.apache.commons.lang3.StringUtils;
@@ -19,7 +19,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class BlockDataSettingScreen extends WindowScreen {
     private static final List<Block> BLOCKS = new ArrayList<>(100);

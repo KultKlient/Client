@@ -1,8 +1,8 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
-import kultklient.legacy.client.gui.utils.IScreenFactory;
-import kultklient.legacy.client.utils.misc.ICopyable;
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.gui.utils.IScreenFactory;
+import kult.legacy.klient.utils.misc.ICopyable;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.function.Consumer;

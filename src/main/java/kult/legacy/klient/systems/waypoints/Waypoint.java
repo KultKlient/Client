@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.waypoints;
+package kult.legacy.klient.systems.waypoints;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.utils.world.Dimension;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.utils.world.Dimension;
 import net.minecraft.client.texture.AbstractTexture;
 import net.minecraft.nbt.NbtCompound;
 

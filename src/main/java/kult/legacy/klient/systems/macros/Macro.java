@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.macros;
+package kult.legacy.klient.systems.macros;
 
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.misc.KeyBind;
-import kultklient.legacy.client.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.KeyBind;
+import kult.legacy.klient.utils.misc.NbtUtils;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Macro implements ISerializable<Macro> {
     public String name = "";

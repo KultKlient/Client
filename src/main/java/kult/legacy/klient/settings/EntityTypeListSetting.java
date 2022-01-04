@@ -1,9 +1,9 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
 import it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.entity.EntityUtils;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.entity.EntityUtils;
 import net.minecraft.entity.EntityType;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;

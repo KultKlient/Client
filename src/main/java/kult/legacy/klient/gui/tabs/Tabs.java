@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.tabs;
+package kult.legacy.klient.gui.tabs;
 
-import kultklient.legacy.client.gui.tabs.builtin.*;
+import kult.legacy.klient.gui.tabs.builtin.*;
 
 import java.util.ArrayList;
 import java.util.List;

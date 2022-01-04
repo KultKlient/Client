@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.player.PlayerUtils;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.TameableEntity;

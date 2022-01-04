@@ -1,6 +1,6 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
+import kult.legacy.klient.KultKlientLegacy;
 import net.minecraft.resource.NamespaceResourceManager;
 import net.minecraft.resource.Resource;
 import net.minecraft.resource.ResourceImpl;

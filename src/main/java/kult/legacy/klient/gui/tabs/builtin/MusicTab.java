@@ -1,14 +1,14 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.music.WCurrentTracksView;
-import kultklient.legacy.client.gui.widgets.music.WMusicWidget;
-import kultklient.legacy.client.gui.widgets.music.WSearchBar;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.music.WCurrentTracksView;
+import kult.legacy.klient.gui.widgets.music.WMusicWidget;
+import kult.legacy.klient.gui.widgets.music.WSearchBar;
 import net.minecraft.client.gui.screen.Screen;
 
 import java.util.ArrayList;

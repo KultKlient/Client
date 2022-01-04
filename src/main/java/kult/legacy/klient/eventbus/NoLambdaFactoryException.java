@@ -1,4 +1,4 @@
-package kultklient.legacy.client.eventbus;
+package kult.legacy.klient.eventbus;
 
 /**
  * Thrown when an {@link IEventBus} can't find a registered lambda factory to use.

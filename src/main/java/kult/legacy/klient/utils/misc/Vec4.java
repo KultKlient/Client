@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 public class Vec4 {
     public double x, y, z, w;

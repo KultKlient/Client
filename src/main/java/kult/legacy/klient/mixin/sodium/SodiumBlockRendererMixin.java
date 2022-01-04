@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin.sodium;
+package kult.legacy.klient.mixin.sodium;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.WallHack;
-import kultklient.legacy.client.systems.modules.render.Xray;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.WallHack;
+import kult.legacy.klient.systems.modules.render.Xray;
 import me.jellysquid.mods.sodium.client.model.IndexBufferBuilder;
 import me.jellysquid.mods.sodium.client.model.light.data.QuadLightData;
 import me.jellysquid.mods.sodium.client.model.quad.ModelQuadColorProvider;

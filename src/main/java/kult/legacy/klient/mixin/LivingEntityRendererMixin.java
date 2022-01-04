@@ -1,13 +1,13 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.render.Chams;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.systems.modules.render.Rendering;
-import kultklient.legacy.client.utils.player.PlayerUtils;
-import kultklient.legacy.client.utils.player.Rotations;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Chams;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.systems.modules.render.Rendering;
+import kult.legacy.klient.utils.player.PlayerUtils;
+import kult.legacy.klient.utils.player.Rotations;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.render.RenderLayer;
@@ -27,7 +27,7 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.opengl.GL11.*;
 
 @Mixin(LivingEntityRenderer.class)

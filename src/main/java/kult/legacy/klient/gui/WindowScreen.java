@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui;
+package kult.legacy.klient.gui;
 
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WWindow;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WWindow;
 
 public abstract class WindowScreen extends WidgetScreen {
     protected final WWindow window;

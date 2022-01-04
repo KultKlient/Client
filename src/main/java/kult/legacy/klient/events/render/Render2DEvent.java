@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.Utils;
 
 public class Render2DEvent {
     private static final Render2DEvent INSTANCE = new Render2DEvent();

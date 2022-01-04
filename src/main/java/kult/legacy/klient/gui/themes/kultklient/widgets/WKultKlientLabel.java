@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.WLabel;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.WLabel;
 
 public class WKultKlientLabel extends WLabel implements KultKlientWidget {
     public WKultKlientLabel(String text, boolean title) {

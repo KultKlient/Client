@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
 public abstract class WHorizontalSeparator extends WWidget {
     protected String text;

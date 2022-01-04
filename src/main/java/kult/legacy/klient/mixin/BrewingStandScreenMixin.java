@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.world.AutoBrewer;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.AutoBrewer;
 import net.minecraft.client.gui.screen.ingame.BrewingStandScreen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.entity.player.PlayerInventory;

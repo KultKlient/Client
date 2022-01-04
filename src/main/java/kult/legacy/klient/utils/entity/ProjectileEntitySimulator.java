@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.entity;
+package kult.legacy.klient.utils.entity;
 
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.mixin.CrossbowItemAccessor;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.MissHitResult;
-import kultklient.legacy.client.utils.misc.Vec3;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.mixin.CrossbowItemAccessor;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.MissHitResult;
+import kult.legacy.klient.utils.misc.Vec3;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.projectile.ProjectileUtil;
 import net.minecraft.fluid.FluidState;
@@ -14,7 +14,7 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.*;
 import net.minecraft.world.RaycastContext;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ProjectileEntitySimulator {
     private static final BlockPos.Mutable blockPos = new BlockPos.Mutable();

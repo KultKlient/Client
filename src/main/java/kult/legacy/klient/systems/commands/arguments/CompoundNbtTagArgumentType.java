@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.commands.arguments;
+package kult.legacy.klient.systems.commands.arguments;
 
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.arguments.ArgumentType;

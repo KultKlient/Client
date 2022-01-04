@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.systems.commands.arguments.PlayerArgumentType;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.systems.commands.arguments.PlayerArgumentType;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.command.CommandSource;
 import net.minecraft.text.LiteralText;
 

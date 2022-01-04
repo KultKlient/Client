@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import org.spongepowered.asm.mixin.Mixin;

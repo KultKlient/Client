@@ -1,12 +1,12 @@
-package kultklient.legacy.client.gui.screens.server.servermanager;
+package kult.legacy.klient.gui.screens.server.servermanager;
 
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.mixininterface.IMultiplayerScreen;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.mixininterface.IMultiplayerScreen;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen;
 import net.minecraft.client.gui.screen.multiplayer.MultiplayerServerListWidget;

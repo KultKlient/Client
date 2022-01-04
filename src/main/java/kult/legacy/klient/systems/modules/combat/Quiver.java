@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.combat;
+package kult.legacy.klient.systems.modules.combat;
 
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.StatusEffectListSetting;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.player.FindItemResult;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.StatusEffectListSetting;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.player.FindItemResult;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

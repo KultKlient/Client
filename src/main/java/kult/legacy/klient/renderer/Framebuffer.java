@@ -1,6 +1,6 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.opengl.GL32C.*;
 
 public class Framebuffer {

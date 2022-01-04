@@ -1,13 +1,13 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.systems.modules.client.ClientSpoof;
-import kultklient.legacy.client.utils.misc.text.StringCharacterVisitor;
-import kultklient.legacy.client.events.game.ReceiveMessageEvent;
-import kultklient.legacy.client.mixininterface.IChatHud;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.chat.BetterChat;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.systems.modules.client.ClientSpoof;
+import kult.legacy.klient.utils.misc.text.StringCharacterVisitor;
+import kult.legacy.klient.events.game.ReceiveMessageEvent;
+import kult.legacy.klient.mixininterface.IChatHud;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.chat.BetterChat;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.hud.ChatHud;
 import net.minecraft.client.gui.hud.ChatHudLine;
@@ -26,7 +26,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(ChatHud.class)
 public abstract class ChatHudMixin implements IChatHud {

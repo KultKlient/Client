@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.modules.client.swarm;
+package kult.legacy.klient.systems.modules.client.swarm;
 
 import baritone.api.BaritoneAPI;
-import kultklient.legacy.client.systems.commands.Commands;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.systems.commands.Commands;
+import kult.legacy.klient.utils.misc.ChatUtils;
 import net.minecraft.block.Block;
 
 import java.io.DataInputStream;

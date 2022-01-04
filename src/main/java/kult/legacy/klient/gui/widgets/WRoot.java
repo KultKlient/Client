@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
 public interface WRoot {
 }

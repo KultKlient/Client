@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.render.search;
+package kult.legacy.klient.systems.modules.render.search;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.utils.IScreenFactory;
-import kultklient.legacy.client.settings.BlockDataSetting;
-import kultklient.legacy.client.settings.IBlockData;
-import kultklient.legacy.client.renderer.ShapeMode;
-import kultklient.legacy.client.utils.misc.IChangeable;
-import kultklient.legacy.client.utils.misc.ICopyable;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.utils.IScreenFactory;
+import kult.legacy.klient.settings.BlockDataSetting;
+import kult.legacy.klient.settings.IBlockData;
+import kult.legacy.klient.renderer.ShapeMode;
+import kult.legacy.klient.utils.misc.IChangeable;
+import kult.legacy.klient.utils.misc.ICopyable;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.block.Block;
 import net.minecraft.nbt.NbtCompound;
 

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
 public class TexturesJson {
     public Textures textures;

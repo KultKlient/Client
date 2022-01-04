@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.world;
+package kult.legacy.klient.systems.modules.world;
 
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.player.FindItemResult;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.utils.world.BlockIterator;
-import kultklient.legacy.client.utils.world.BlockUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.player.FindItemResult;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.utils.world.BlockIterator;
+import kult.legacy.klient.utils.world.BlockUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.render;
+package kult.legacy.klient.systems.modules.render;
 
-import kultklient.legacy.client.events.render.RenderBlockEntityEvent;
-import kultklient.legacy.client.events.world.AmbientOcclusionEvent;
-import kultklient.legacy.client.events.world.ChunkOcclusionEvent;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.world.BlockUtils;
+import kult.legacy.klient.events.render.RenderBlockEntityEvent;
+import kult.legacy.klient.events.world.AmbientOcclusionEvent;
+import kult.legacy.klient.events.world.ChunkOcclusionEvent;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.world.BlockUtils;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
 import java.util.ArrayList;
 import java.util.List;

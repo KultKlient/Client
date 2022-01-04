@@ -1,17 +1,17 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WDropdown;
-import kultklient.legacy.client.utils.misc.NbtUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WDropdown;
+import kult.legacy.klient.utils.misc.NbtUtils;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.nbt.NbtCompound;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class GuiTab extends Tab {
     public GuiTab() {

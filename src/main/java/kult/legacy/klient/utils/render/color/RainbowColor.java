@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.render.color;
+package kult.legacy.klient.utils.render.color;
 
 public class RainbowColor extends Color {
 

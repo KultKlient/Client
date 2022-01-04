@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.tabs;
+package kult.legacy.klient.gui.tabs;
 
-import kultklient.legacy.client.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiTheme;
 import net.minecraft.client.gui.screen.Screen;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public abstract class Tab {
     public final String name;

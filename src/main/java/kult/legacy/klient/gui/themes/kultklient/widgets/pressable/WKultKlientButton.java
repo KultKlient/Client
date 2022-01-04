@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.pressable;
+package kult.legacy.klient.gui.themes.kultklient.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.renderer.packer.GuiTexture;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.renderer.packer.GuiTexture;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
 
 public class WKultKlientButton extends WButton implements KultKlientWidget {
     public WKultKlientButton(String text, GuiTexture texture) {

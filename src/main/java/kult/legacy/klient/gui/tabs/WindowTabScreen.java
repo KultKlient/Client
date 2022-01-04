@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.tabs;
+package kult.legacy.klient.gui.tabs;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WWindow;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WWindow;
 
 public abstract class WindowTabScreen extends TabScreen {
     protected final WWindow window;

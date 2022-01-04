@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets;
+package kult.legacy.klient.gui.themes.meteor.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.containers.WView;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.containers.WView;
 
 public class WMeteorView extends WView implements MeteorWidget {
     @Override

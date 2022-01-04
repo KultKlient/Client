@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
@@ -16,7 +16,7 @@ import org.apache.commons.lang3.tuple.Triple;
 import java.util.*;
 import java.util.function.Function;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class GiveUtils {
     private static final Random random = new Random();

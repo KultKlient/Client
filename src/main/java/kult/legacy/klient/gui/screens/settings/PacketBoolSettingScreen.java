@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.settings.PacketListSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.utils.network.PacketUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.settings.PacketListSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.utils.network.PacketUtils;
 import net.minecraft.network.Packet;
 
 import java.util.Set;

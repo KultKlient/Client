@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.player.CobwebEntityCollisionEvent;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.player.CobwebEntityCollisionEvent;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CobwebBlock;
 import net.minecraft.entity.Entity;

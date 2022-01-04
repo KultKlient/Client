@@ -1,17 +1,17 @@
-package kultklient.legacy.client.systems.modules.client;
+package kult.legacy.klient.systems.modules.client;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.network.Capes;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.network.Capes;
 import net.minecraft.item.Items;
 
 public class CapesModule extends Module {

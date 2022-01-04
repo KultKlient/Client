@@ -1,15 +1,15 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.kultklientlegacy.MouseButtonEvent;
-import kultklient.legacy.client.events.kultklientlegacy.MouseScrollEvent;
-import kultklient.legacy.client.mixininterface.ICamera;
-import kultklient.legacy.client.systems.modules.render.FreeLook;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.systems.modules.world.HighwayBuilder;
-import kultklient.legacy.client.utils.misc.input.Input;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.kultklientlegacy.MouseButtonEvent;
+import kult.legacy.klient.events.kultklientlegacy.MouseScrollEvent;
+import kult.legacy.klient.mixininterface.ICamera;
+import kult.legacy.klient.systems.modules.render.FreeLook;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.world.HighwayBuilder;
+import kult.legacy.klient.utils.misc.input.Input;
+import kult.legacy.klient.utils.misc.input.KeyAction;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.Mouse;
 import net.minecraft.client.network.ClientPlayerEntity;

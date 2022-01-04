@@ -1,16 +1,16 @@
-package kultklient.legacy.client.systems.modules.world;
+package kult.legacy.klient.systems.modules.world;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.misc.TPSSync;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.misc.TPSSync;
 import net.minecraft.item.Items;
 
 public class Timer extends Module {

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.entity;
+package kult.legacy.klient.events.entity;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.item.ItemStack;
 
 public class DropItemsEvent extends Cancellable {

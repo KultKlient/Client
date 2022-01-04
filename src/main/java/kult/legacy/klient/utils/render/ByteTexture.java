@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.texture.AbstractTexture;

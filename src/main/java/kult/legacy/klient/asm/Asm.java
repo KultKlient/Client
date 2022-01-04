@@ -1,7 +1,7 @@
-package kultklient.legacy.client.asm;
+package kult.legacy.klient.asm;
 
-import kultklient.legacy.client.asm.transformers.CanvasWorldRendererTransformer;
-import kultklient.legacy.client.asm.transformers.GameRendererTransformer;
+import kult.legacy.klient.asm.transformers.CanvasWorldRendererTransformer;
+import kult.legacy.klient.asm.transformers.GameRendererTransformer;
 import net.fabricmc.loader.api.FabricLoader;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;

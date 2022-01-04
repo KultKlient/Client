@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.widgets.music;
+package kult.legacy.klient.gui.widgets.music;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.tabs.builtin.MusicTab;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.tabs.builtin.MusicTab;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WTable;
 
 import java.util.function.Consumer;
 

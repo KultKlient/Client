@@ -1,16 +1,16 @@
-package kultklient.legacy.client.gui.widgets.containers;
+package kult.legacy.klient.gui.widgets.containers;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.Mouse;
 
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public abstract class WContainer extends WWidget {
     public final List<Cell<?>> cells = new ArrayList<>();

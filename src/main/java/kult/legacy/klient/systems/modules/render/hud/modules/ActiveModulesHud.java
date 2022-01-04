@@ -1,16 +1,16 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.render.ModuleColorMode;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.render.ModuleColorMode;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
 
 import java.util.ArrayList;
 import java.util.List;

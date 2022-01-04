@@ -1,10 +1,10 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.ChangePerspectiveEvent;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.utils.misc.input.KeyBinds;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.ChangePerspectiveEvent;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.utils.misc.input.KeyBinds;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.GameOptions;
 import net.minecraft.client.option.KeyBinding;

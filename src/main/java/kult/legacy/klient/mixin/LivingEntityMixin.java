@@ -1,17 +1,17 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.DamageEvent;
-import kultklient.legacy.client.events.entity.TookDamageEvent;
-import kultklient.legacy.client.events.entity.player.CanWalkOnFluidEvent;
-import kultklient.legacy.client.events.entity.player.TeleportParticleEvent;
-import kultklient.legacy.client.systems.modules.movement.AntiLevitation;
-import kultklient.legacy.client.systems.modules.crash.OffhandCrash;
-import kultklient.legacy.client.systems.modules.movement.Moses;
-import kultklient.legacy.client.systems.modules.render.HandView;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.DamageEvent;
+import kult.legacy.klient.events.entity.TookDamageEvent;
+import kult.legacy.klient.events.entity.player.CanWalkOnFluidEvent;
+import kult.legacy.klient.events.entity.player.TeleportParticleEvent;
+import kult.legacy.klient.systems.modules.movement.AntiLevitation;
+import kult.legacy.klient.systems.modules.crash.OffhandCrash;
+import kult.legacy.klient.systems.modules.movement.Moses;
+import kult.legacy.klient.systems.modules.render.HandView;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -30,7 +30,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(LivingEntity.class)
 public abstract class LivingEntityMixin extends Entity {

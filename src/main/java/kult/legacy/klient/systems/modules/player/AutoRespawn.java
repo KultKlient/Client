@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
-import kultklient.legacy.client.events.game.OpenScreenEvent;
-import kultklient.legacy.client.systems.modules.render.WaypointsModule;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.events.game.OpenScreenEvent;
+import kult.legacy.klient.systems.modules.render.WaypointsModule;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
 import net.minecraft.client.gui.screen.DeathScreen;
 import net.minecraft.item.Items;
 

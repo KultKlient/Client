@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.render.BetterTooltips;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.BetterTooltips;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.ShulkerBoxBlock;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;

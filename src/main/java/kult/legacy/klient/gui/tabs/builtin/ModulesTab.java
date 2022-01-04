@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
 import net.minecraft.client.gui.screen.Screen;
 
 public class ModulesTab extends Tab {

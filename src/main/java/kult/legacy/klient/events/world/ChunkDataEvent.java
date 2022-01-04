@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.world;
+package kult.legacy.klient.events.world;
 
-import kultklient.legacy.client.utils.misc.Pool;
+import kult.legacy.klient.utils.misc.Pool;
 import net.minecraft.world.chunk.WorldChunk;
 
 public class ChunkDataEvent {

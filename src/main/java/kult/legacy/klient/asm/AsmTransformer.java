@@ -1,4 +1,4 @@
-package kultklient.legacy.client.asm;
+package kult.legacy.klient.asm;
 
 import net.fabricmc.loader.api.FabricLoader;
 import org.objectweb.asm.tree.ClassNode;

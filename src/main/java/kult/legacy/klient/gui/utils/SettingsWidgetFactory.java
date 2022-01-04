@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.utils;
+package kult.legacy.klient.gui.utils;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.settings.Settings;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.settings.Settings;
 
 public interface SettingsWidgetFactory {
     WWidget create(GuiTheme theme, Settings settings, String filter);

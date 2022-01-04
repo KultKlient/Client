@@ -1,9 +1,9 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.blaze3d.platform.GlStateManager;
-import kultklient.legacy.client.mixin.BufferRendererAccessor;
-import kultklient.legacy.client.mixininterface.ICapabilityTracker;
+import kult.legacy.klient.mixin.BufferRendererAccessor;
+import kult.legacy.klient.mixininterface.ICapabilityTracker;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Matrix4f;
@@ -13,7 +13,7 @@ import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.opengl.GL32C.*;
 
 public class GL {

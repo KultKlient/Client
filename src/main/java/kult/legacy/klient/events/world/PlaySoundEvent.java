@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.world;
+package kult.legacy.klient.events.world;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.client.sound.SoundInstance;
 
 public class PlaySoundEvent extends Cancellable {

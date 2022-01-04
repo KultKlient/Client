@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.world.Ambience;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.Ambience;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockRenderView;

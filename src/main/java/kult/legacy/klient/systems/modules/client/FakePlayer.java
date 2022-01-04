@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.client;
+package kult.legacy.klient.systems.modules.client;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerManager;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerManager;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Items;
 
 public class FakePlayer extends Module {

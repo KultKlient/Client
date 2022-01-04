@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.chat;
+package kult.legacy.klient.systems.modules.chat;
 
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.entity.EntityAddedEvent;
-import kultklient.legacy.client.events.entity.EntityRemovedEvent;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerEntity;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.entity.EntityAddedEvent;
+import kult.legacy.klient.events.entity.EntityRemovedEvent;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerEntity;
+import kult.legacy.klient.utils.misc.ChatUtils;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
@@ -17,7 +17,7 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.text.MutableText;
 import net.minecraft.util.Formatting;
 
-import static kultklient.legacy.client.utils.misc.ChatUtils.formatCoords;
+import static kult.legacy.klient.utils.misc.ChatUtils.formatCoords;
 
 public class VisualRange extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();

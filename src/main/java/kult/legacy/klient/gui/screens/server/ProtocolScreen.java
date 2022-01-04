@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.screens.server;
+package kult.legacy.klient.gui.screens.server;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
 import net.minecraft.client.gui.screen.Screen;
 
 /*/------------------------/*/

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket;
 import org.spongepowered.asm.mixin.Mixin;

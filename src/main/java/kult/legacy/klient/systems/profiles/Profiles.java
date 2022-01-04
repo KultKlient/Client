@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.profiles;
+package kult.legacy.klient.systems.profiles;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.nbt.NbtCompound;
 
 import java.io.File;

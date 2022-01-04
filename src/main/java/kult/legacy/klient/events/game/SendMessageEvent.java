@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 
 public class SendMessageEvent extends Cancellable {
     private static final SendMessageEvent INSTANCE = new SendMessageEvent();

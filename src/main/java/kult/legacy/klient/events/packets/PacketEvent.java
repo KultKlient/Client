@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.packets;
+package kult.legacy.klient.events.packets;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.network.Packet;
 
 public class PacketEvent extends Cancellable {

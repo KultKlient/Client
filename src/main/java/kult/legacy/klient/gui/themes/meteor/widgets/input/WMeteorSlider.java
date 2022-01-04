@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets.input;
+package kult.legacy.klient.gui.themes.meteor.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.input.WSlider;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.input.WSlider;
 
 public class WMeteorSlider extends WSlider implements MeteorWidget {
     public WMeteorSlider(double value, double min, double max) {

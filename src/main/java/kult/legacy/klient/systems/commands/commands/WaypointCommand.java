@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.commands.arguments.WaypointArgumentType;
-import kultklient.legacy.client.systems.waypoints.Waypoint;
-import kultklient.legacy.client.systems.waypoints.Waypoints;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.commands.arguments.WaypointArgumentType;
+import kult.legacy.klient.systems.waypoints.Waypoint;
+import kult.legacy.klient.systems.waypoints.Waypoints;
+import kult.legacy.klient.utils.player.PlayerUtils;
 import net.minecraft.command.CommandSource;
 import net.minecraft.util.Formatting;
 

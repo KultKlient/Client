@@ -1,21 +1,21 @@
-package kultklient.legacy.client.utils.render.color;
+package kult.legacy.klient.utils.render.color;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.tabs.builtin.ConfigTab;
-import kultklient.legacy.client.settings.ColorSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.waypoints.Waypoint;
-import kultklient.legacy.client.systems.waypoints.Waypoints;
-import kultklient.legacy.client.utils.misc.UnorderedArrayList;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.tabs.builtin.ConfigTab;
+import kult.legacy.klient.settings.ColorSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.waypoints.Waypoint;
+import kult.legacy.klient.systems.waypoints.Waypoints;
+import kult.legacy.klient.utils.misc.UnorderedArrayList;
+import kult.legacy.klient.eventbus.EventHandler;
 
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class RainbowColors {
     public static final RainbowColor GLOBAL = new RainbowColor().setSpeed(ConfigTab.rainbowSpeed.get() / 100);

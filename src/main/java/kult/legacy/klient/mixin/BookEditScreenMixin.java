@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import it.unimi.dsi.fastutil.io.FastByteArrayOutputStream;
 import net.minecraft.client.gui.screen.Screen;
@@ -25,7 +25,7 @@ import java.io.IOException;
 import java.util.Base64;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(BookEditScreen.class)
 public abstract class BookEditScreenMixin extends Screen {

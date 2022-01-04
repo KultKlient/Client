@@ -1,18 +1,18 @@
-package kultklient.legacy.client.gui;
+package kult.legacy.klient.gui;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.gui.renderer.GuiDebugRenderer;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.builtin.HudTab;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WRoot;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.utils.misc.CursorStyle;
-import kultklient.legacy.client.utils.misc.input.Input;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.gui.renderer.GuiDebugRenderer;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.builtin.HudTab;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WRoot;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.utils.misc.CursorStyle;
+import kult.legacy.klient.utils.misc.input.Input;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
@@ -24,8 +24,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Consumer;
 
-import static kultklient.legacy.client.utils.Utils.*;
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.utils.Utils.*;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.glfw.GLFW.*;
 
 public abstract class WidgetScreen extends Screen {

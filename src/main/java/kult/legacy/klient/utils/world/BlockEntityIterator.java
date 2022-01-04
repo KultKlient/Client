@@ -1,6 +1,6 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.mixin.ChunkAccessor;
+import kult.legacy.klient.mixin.ChunkAccessor;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.chunk.Chunk;

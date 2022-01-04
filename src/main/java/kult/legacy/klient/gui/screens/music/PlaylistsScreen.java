@@ -1,21 +1,21 @@
-package kultklient.legacy.client.gui.screens.music;
+package kult.legacy.klient.gui.screens.music;
 
 import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.tabs.builtin.MusicTab;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.music.WMusicWidget;
-import kultklient.legacy.client.gui.widgets.music.WPaginationProvider;
-import kultklient.legacy.client.utils.music.PlaylistUtils;
-import kultklient.legacy.client.utils.music.SearchUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.tabs.builtin.MusicTab;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.music.WMusicWidget;
+import kult.legacy.klient.gui.widgets.music.WPaginationProvider;
+import kult.legacy.klient.utils.music.PlaylistUtils;
+import kult.legacy.klient.utils.music.SearchUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class PlaylistsScreen extends WindowScreen {
     private final MusicTab.MusicScreen musicScreen;

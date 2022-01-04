@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
 /*/-------------------------------------------------------------------------------------------------------------------------/*/
 /*/ Imported from Atomic                                                                                                    /*/
 /*/ https://github.com/0x151/Atomic/blob/master/src/main/java/me/zeroX150/atomic/feature/module/impl/exploit/PingSpoof.java /*/
 /*/-------------------------------------------------------------------------------------------------------------------------/*/
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 import net.minecraft.network.Packet;
 import net.minecraft.network.packet.c2s.play.KeepAliveC2SPacket;

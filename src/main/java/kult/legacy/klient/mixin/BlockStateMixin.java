@@ -1,9 +1,9 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import com.google.common.collect.ImmutableMap;
 import com.mojang.serialization.MapCodec;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.BlockActivateEvent;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.BlockActivateEvent;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

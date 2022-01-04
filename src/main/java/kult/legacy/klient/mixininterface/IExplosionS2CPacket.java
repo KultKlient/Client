@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
 public interface IExplosionS2CPacket {
     void setVelocityX(float velocity);

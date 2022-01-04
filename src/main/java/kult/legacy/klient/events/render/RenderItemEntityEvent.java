@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.item.ItemRenderer;
 import net.minecraft.client.util.math.MatrixStack;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.network.serverfinder;
+package kult.legacy.klient.utils.network.serverfinder;
 
 public interface IServerFinderDisconnectListener {
     void onServerDisconnect();

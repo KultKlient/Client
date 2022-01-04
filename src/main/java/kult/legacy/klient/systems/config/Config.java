@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.config;
+package kult.legacy.klient.systems.config;
 
-import kultklient.legacy.client.gui.tabs.builtin.ConfigTab;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.systems.System;
+import kult.legacy.klient.gui.tabs.builtin.ConfigTab;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.systems.System;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;

@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.pressable;
+package kult.legacy.klient.gui.themes.kultklient.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WMinus;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.pressable.WMinus;
 
 public class WKultKlientMinus extends WMinus implements KultKlientWidget {
     @Override

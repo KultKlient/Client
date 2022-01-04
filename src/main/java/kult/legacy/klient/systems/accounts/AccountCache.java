@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
 import com.mojang.blaze3d.platform.TextureUtil;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.renderer.Texture;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.misc.NbtException;
-import kultklient.legacy.client.utils.network.HTTP;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.renderer.Texture;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.NbtException;
+import kult.legacy.klient.utils.network.HTTP;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.Identifier;
 import org.lwjgl.stb.STBImage;
@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class AccountCache implements ISerializable<AccountCache> {
     private static Texture STEVE_HEAD;

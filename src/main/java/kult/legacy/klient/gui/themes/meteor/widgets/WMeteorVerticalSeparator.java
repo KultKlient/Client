@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets;
+package kult.legacy.klient.gui.themes.meteor.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.WVerticalSeparator;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.WVerticalSeparator;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WMeteorVerticalSeparator extends WVerticalSeparator implements MeteorWidget {
     @Override

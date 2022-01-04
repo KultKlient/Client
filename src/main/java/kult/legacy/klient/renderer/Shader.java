@@ -1,9 +1,9 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
-import kultklient.legacy.client.KultKlientLegacy;
+import kult.legacy.klient.KultKlientLegacy;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Matrix4f;
 import org.apache.commons.io.IOUtils;
@@ -11,7 +11,7 @@ import org.apache.commons.io.IOUtils;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.opengl.GL32C.*;
 
 public class Shader {

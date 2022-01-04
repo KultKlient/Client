@@ -1,14 +1,14 @@
-package kultklient.legacy.client.gui.screens.interactionmenu;
+package kult.legacy.klient.gui.screens.interactionmenu;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.mixin.EntityAccessor;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.InteractionMenu;
-import kultklient.legacy.client.utils.render.PeekScreen;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.mixin.EntityAccessor;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.InteractionMenu;
+import kult.legacy.klient.utils.render.PeekScreen;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ChatScreen;
 import net.minecraft.client.gui.screen.Screen;
@@ -38,7 +38,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.function.Consumer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 /*/---------------------------------------------------------------------------------------------------------------------------------------/*/
 /*/ Used from Meteor Rejects                                                                                                              /*/

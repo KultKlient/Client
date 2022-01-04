@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin.sodium;
+package kult.legacy.klient.mixin.sodium;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Xray;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Xray;
 import me.jellysquid.mods.sodium.client.render.occlusion.BlockOcclusionCache;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;

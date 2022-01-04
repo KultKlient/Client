@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.world.AutoSmelter;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.AutoSmelter;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.gui.screen.ingame.AbstractFurnaceScreen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.gui.screen.recipebook.RecipeBookProvider;

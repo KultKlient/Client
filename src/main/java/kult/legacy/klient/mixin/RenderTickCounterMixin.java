@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.world.Timer;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.Timer;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.render.RenderTickCounter;
 import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;

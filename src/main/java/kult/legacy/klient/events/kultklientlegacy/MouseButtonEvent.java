@@ -1,7 +1,7 @@
-package kultklient.legacy.client.events.kultklientlegacy;
+package kult.legacy.klient.events.kultklientlegacy;
 
-import kultklient.legacy.client.events.Cancellable;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
+import kult.legacy.klient.events.Cancellable;
+import kult.legacy.klient.utils.misc.input.KeyAction;
 
 public class MouseButtonEvent extends Cancellable {
     private static final MouseButtonEvent INSTANCE = new MouseButtonEvent();

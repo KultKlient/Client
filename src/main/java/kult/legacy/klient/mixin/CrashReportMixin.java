@@ -1,9 +1,9 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Category;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Category;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.util.crash.CrashReport;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

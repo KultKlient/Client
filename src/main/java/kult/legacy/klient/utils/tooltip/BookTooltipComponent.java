@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.tooltip;
+package kult.legacy.klient.utils.tooltip;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.font.TextRenderer;

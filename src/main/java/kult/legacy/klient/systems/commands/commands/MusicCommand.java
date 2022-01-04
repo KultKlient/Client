@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 // TODO: Add play command which searches for a song and plays it and stop command which removes all songs.
 
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.gui.tabs.builtin.ConfigTab;
-import kultklient.legacy.client.music.Music;
-import kultklient.legacy.client.systems.commands.Command;
+import kult.legacy.klient.gui.tabs.builtin.ConfigTab;
+import kult.legacy.klient.music.Music;
+import kult.legacy.klient.systems.commands.Command;
 import net.minecraft.command.CommandSource;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;

@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.mixin.ItemStackAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.combat.AutoTotem;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.utils.player.SlotUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.mixin.ItemStackAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.combat.AutoTotem;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.utils.player.SlotUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

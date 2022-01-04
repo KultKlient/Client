@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.render.RenderUtils;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.render.RenderUtils;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

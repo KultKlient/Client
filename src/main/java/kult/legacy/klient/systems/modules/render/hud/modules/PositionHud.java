@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.player.PlayerUtils;
 
 public class PositionHud extends HudElement {
     private final String left1 = "XYZ ";

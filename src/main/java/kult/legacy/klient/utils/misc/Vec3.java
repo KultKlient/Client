@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;

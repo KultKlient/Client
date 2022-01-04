@@ -1,4 +1,4 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import com.mojang.serialization.Lifecycle;
 import net.minecraft.block.entity.BlockEntityType;

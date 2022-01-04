@@ -1,6 +1,6 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
-import kultklient.legacy.client.utils.misc.Vec4;
+import kult.legacy.klient.utils.misc.Vec4;
 import net.minecraft.util.math.Vec3d;
 
 public interface IMatrix4f {

@@ -1,11 +1,11 @@
-package kultklient.legacy.client.utils.misc.input;
+package kult.legacy.klient.utils.misc.input;
 
-import kultklient.legacy.client.gui.GuiKeyEvents;
-import kultklient.legacy.client.utils.misc.CursorStyle;
+import kult.legacy.klient.gui.GuiKeyEvents;
+import kult.legacy.klient.utils.misc.CursorStyle;
 import net.minecraft.client.option.KeyBinding;
 import org.lwjgl.glfw.GLFW;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Input {
     private static final boolean[] keys = new boolean[512];

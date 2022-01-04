@@ -1,4 +1,4 @@
-package kultklient.legacy.client.eventbus.listeners;
+package kult.legacy.klient.eventbus.listeners;
 
 /**
  * Base type for all listeners.

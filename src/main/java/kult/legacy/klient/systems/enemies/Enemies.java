@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.enemies;
+package kult.legacy.klient.systems.enemies;
 
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.misc.ChatUtils;
-import kultklient.legacy.client.utils.render.ToastSystem;
-import kultklient.legacy.client.utils.render.color.RainbowColors;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.misc.ChatUtils;
+import kult.legacy.klient.utils.render.ToastSystem;
+import kult.legacy.klient.utils.render.color.RainbowColors;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Enemies extends System<Enemies> implements Iterable<Enemy> {
     private List<Enemy> enemies = new ArrayList<>();

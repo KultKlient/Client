@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.utils.render.ToastSystem;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.utils.render.ToastSystem;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;

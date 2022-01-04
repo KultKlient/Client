@@ -1,9 +1,9 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.ParticleEvent;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.ParticleEvent;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.particle.ParticleManager;

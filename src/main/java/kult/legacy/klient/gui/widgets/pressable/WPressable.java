@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets.pressable;
+package kult.legacy.klient.gui.widgets.pressable;
 
-import kultklient.legacy.client.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.WWidget;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_LEFT;
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_RIGHT;

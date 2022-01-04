@@ -1,7 +1,7 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.mixin.CreativeInventoryScreenAccessor;
-import kultklient.legacy.client.mixin.HorseScreenHandlerAccessor;
+import kult.legacy.klient.mixin.CreativeInventoryScreenAccessor;
+import kult.legacy.klient.mixin.HorseScreenHandlerAccessor;
 import net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen;
 import net.minecraft.entity.mob.SkeletonHorseEntity;
 import net.minecraft.entity.mob.ZombieHorseEntity;
@@ -12,7 +12,7 @@ import net.minecraft.entity.passive.LlamaEntity;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.screen.*;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class SlotUtils {
     public static final int HOTBAR_START = 0;

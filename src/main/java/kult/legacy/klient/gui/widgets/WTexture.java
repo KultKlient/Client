@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.renderer.Texture;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.renderer.Texture;
 
 public class WTexture extends WWidget {
     private final double width, height;

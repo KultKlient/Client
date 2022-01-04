@@ -1,4 +1,4 @@
-package kultklient.legacy.client.eventbus;
+package kult.legacy.klient.eventbus;
 
 /**
  * Default event priorities.

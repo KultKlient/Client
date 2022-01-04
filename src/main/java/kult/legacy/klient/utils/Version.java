@@ -1,9 +1,9 @@
-package kultklient.legacy.client.utils;
+package kult.legacy.klient.utils;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.utils.network.HTTP;
-import kultklient.legacy.client.utils.render.prompts.OkPrompt;
-import kultklient.legacy.client.utils.render.prompts.YesNoPrompt;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.utils.network.HTTP;
+import kult.legacy.klient.utils.render.prompts.OkPrompt;
+import kult.legacy.klient.utils.render.prompts.YesNoPrompt;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.SharedConstants;
 import net.minecraft.util.Util;

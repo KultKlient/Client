@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 public enum AlignmentY {
     Top,

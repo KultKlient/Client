@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.utils.render.ContainerButtonWidget;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.misc.InventoryTweaks;
+import kult.legacy.klient.utils.render.ContainerButtonWidget;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.misc.InventoryTweaks;
 import net.minecraft.client.gui.screen.ingame.GenericContainerScreen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.gui.screen.ingame.ScreenHandlerProvider;

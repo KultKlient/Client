@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.misc.Names;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.misc.Names;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;

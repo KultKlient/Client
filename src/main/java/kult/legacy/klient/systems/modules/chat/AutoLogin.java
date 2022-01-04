@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.chat;
+package kult.legacy.klient.systems.modules.chat;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
-import kultklient.legacy.client.events.game.ReceiveMessageEvent;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.StringSetting;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
+import kult.legacy.klient.events.game.ReceiveMessageEvent;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.StringSetting;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 
 import java.util.ArrayList;

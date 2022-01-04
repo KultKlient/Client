@@ -1,10 +1,10 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.mixininterface.IEntityRenderer;
-import kultklient.legacy.client.systems.modules.render.Nametags;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.mixininterface.IEntityRenderer;
+import kult.legacy.klient.systems.modules.render.Nametags;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.render.Frustum;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRenderer;

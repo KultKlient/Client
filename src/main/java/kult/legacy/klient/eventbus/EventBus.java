@@ -1,7 +1,7 @@
-package kultklient.legacy.client.eventbus;
+package kult.legacy.klient.eventbus;
 
-import kultklient.legacy.client.eventbus.listeners.IListener;
-import kultklient.legacy.client.eventbus.listeners.LambdaListener;
+import kult.legacy.klient.eventbus.listeners.IListener;
+import kult.legacy.klient.eventbus.listeners.LambdaListener;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

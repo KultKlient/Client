@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
 import net.minecraft.util.math.Direction;
 

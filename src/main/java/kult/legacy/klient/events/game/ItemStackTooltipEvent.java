@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;

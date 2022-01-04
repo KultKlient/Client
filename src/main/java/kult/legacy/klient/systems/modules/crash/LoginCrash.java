@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules.crash;
+package kult.legacy.klient.systems.modules.crash;
 
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 
 /*/--------------------------/*/

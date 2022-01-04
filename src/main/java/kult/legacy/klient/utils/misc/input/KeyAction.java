@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc.input;
+package kult.legacy.klient.utils.misc.input;
 
 import org.lwjgl.glfw.GLFW;
 

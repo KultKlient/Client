@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.entity;
+package kult.legacy.klient.utils.entity;
 
 public enum Target {
     Head,

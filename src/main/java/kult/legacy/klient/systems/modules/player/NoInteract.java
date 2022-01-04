@@ -1,16 +1,16 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
-import kultklient.legacy.client.events.entity.player.AttackEntityEvent;
-import kultklient.legacy.client.events.entity.player.InteractBlockEvent;
-import kultklient.legacy.client.events.entity.player.InteractEntityEvent;
-import kultklient.legacy.client.events.entity.player.StartBreakingBlockEvent;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.entity.player.AttackEntityEvent;
+import kult.legacy.klient.events.entity.player.InteractBlockEvent;
+import kult.legacy.klient.events.entity.player.InteractEntityEvent;
+import kult.legacy.klient.events.entity.player.StartBreakingBlockEvent;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
+import kult.legacy.klient.settings.*;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

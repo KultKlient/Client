@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -13,7 +13,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.function.Predicate;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class EnhancedInvUtils {
     private static Long currentMove;

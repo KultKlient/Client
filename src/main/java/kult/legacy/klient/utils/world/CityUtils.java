@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.mixin.AbstractBlockAccessor;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerEntity;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerManager;
+import kult.legacy.klient.mixin.AbstractBlockAccessor;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerEntity;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerManager;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,7 +13,7 @@ import net.minecraft.util.math.Vec3d;
 
 import java.util.ArrayList;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class CityUtils {
     private static final BlockPos[] surround;

@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.crash.LoginCrash;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.crash.LoginCrash;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.network.packet.c2s.login.LoginHelloC2SPacket;
 import org.spongepowered.asm.mixin.Mixin;

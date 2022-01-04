@@ -1,10 +1,10 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import io.netty.channel.Channel;
 import io.netty.handler.proxy.Socks4ProxyHandler;
 import io.netty.handler.proxy.Socks5ProxyHandler;
-import kultklient.legacy.client.systems.proxies.Proxy;
-import kultklient.legacy.client.systems.proxies.Proxies;
+import kult.legacy.klient.systems.proxies.Proxy;
+import kult.legacy.klient.systems.proxies.Proxies;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectUtil;
 import net.minecraft.item.ItemStack;

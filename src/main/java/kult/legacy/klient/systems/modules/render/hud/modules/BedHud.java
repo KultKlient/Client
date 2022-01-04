@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.utils.render.RenderUtils;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.utils.render.RenderUtils;
 import net.minecraft.item.BedItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

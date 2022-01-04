@@ -1,6 +1,6 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.mixininterface.IRaycastContext;
+import kult.legacy.klient.mixininterface.IRaycastContext;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Vec3d;

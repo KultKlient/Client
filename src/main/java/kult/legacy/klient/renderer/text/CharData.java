@@ -1,4 +1,4 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
 public class CharData {
     public final float x0, y0, x1, y1;

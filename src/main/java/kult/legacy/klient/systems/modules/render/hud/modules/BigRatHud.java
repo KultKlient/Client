@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.util.Identifier;
 
 public class BigRatHud extends HudElement {

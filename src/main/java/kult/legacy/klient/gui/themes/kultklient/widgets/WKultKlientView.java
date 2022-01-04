@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.containers.WView;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.containers.WView;
 
 public class WKultKlientView extends WView implements KultKlientWidget {
     @Override

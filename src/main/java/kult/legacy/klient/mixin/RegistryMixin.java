@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.util.registry.Registry;
 import org.spongepowered.asm.mixin.Mixin;

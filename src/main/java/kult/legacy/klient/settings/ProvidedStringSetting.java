@@ -1,4 +1,4 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;

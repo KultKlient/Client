@@ -1,14 +1,14 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.DropItemsEvent;
-import kultklient.legacy.client.events.entity.player.*;
-import kultklient.legacy.client.mixininterface.IClientPlayerInteractionManager;
-import kultklient.legacy.client.systems.modules.player.NoBreakDelay;
-import kultklient.legacy.client.systems.modules.player.Reach;
-import kultklient.legacy.client.systems.modules.world.Nuker;
-import kultklient.legacy.client.utils.world.BlockUtils;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.DropItemsEvent;
+import kult.legacy.klient.events.entity.player.*;
+import kult.legacy.klient.mixininterface.IClientPlayerInteractionManager;
+import kult.legacy.klient.systems.modules.player.NoBreakDelay;
+import kult.legacy.klient.systems.modules.player.Reach;
+import kult.legacy.klient.systems.modules.world.Nuker;
+import kult.legacy.klient.utils.world.BlockUtils;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.network.ClientPlayerInteractionManager;

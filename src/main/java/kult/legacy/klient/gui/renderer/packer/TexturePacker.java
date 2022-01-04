@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.renderer.packer;
+package kult.legacy.klient.gui.renderer.packer;
 
 import com.mojang.blaze3d.platform.TextureUtil;
-import kultklient.legacy.client.utils.render.ByteTexture;
+import kult.legacy.klient.utils.render.ByteTexture;
 import net.minecraft.util.Identifier;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.stb.STBImage;
@@ -17,7 +17,7 @@ import java.nio.IntBuffer;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class TexturePacker {
     private static final int maxWidth = 2048;

@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.modules.render.search;
+package kult.legacy.klient.systems.modules.render.search;
 
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
-import kultklient.legacy.client.events.render.Render3DEvent;
+import kult.legacy.klient.events.render.Render3DEvent;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
@@ -11,8 +11,8 @@ import net.minecraft.world.chunk.Chunk;
 
 import java.util.List;
 
-import static kultklient.legacy.client.utils.Utils.getRenderDistance;
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.utils.Utils.getRenderDistance;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class SChunk {
     private static final BlockPos.Mutable blockPos = new BlockPos.Mutable();

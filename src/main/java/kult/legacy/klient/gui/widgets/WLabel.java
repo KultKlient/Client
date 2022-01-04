@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.Color;
 
 public abstract class WLabel extends WWidget {
     public Color color;

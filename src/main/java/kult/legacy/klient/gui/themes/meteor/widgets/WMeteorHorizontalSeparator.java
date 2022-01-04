@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets;
+package kult.legacy.klient.gui.themes.meteor.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.WHorizontalSeparator;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.WHorizontalSeparator;
 
 public class WMeteorHorizontalSeparator extends WHorizontalSeparator implements MeteorWidget {
     public WMeteorHorizontalSeparator(String text) {

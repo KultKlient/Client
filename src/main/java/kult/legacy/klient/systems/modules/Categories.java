@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules;
+package kult.legacy.klient.systems.modules;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.item.Items;
 
 public class Categories {

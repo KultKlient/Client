@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui;
+package kult.legacy.klient.gui;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtIo;
 

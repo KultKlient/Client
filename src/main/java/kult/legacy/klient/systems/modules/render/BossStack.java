@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.render;
+package kult.legacy.klient.systems.modules.render;
 
-import kultklient.legacy.client.events.render.RenderBossBarEvent;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.render.RenderBossBarEvent;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.client.gui.hud.ClientBossBar;
 import net.minecraft.item.Items;
 import net.minecraft.text.Text;

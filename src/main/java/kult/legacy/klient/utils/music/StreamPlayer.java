@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.music;
+package kult.legacy.klient.utils.music;
 
 import com.sedmelluq.discord.lavaplayer.format.AudioDataFormat;
 import com.sedmelluq.discord.lavaplayer.format.AudioPlayerInputStream;
 import com.sedmelluq.discord.lavaplayer.format.Pcm16AudioDataFormat;
 import com.sedmelluq.discord.lavaplayer.format.StandardAudioDataFormats;
-import kultklient.legacy.client.music.Music;
+import kult.legacy.klient.music.Music;
 
 import javax.sound.sampled.*;
 import java.io.IOException;

@@ -1,9 +1,9 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.entity.player.StartBreakingBlockEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.entity.player.StartBreakingBlockEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;

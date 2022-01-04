@@ -1,6 +1,6 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.mixininterface.IExplosion;
+import kult.legacy.klient.mixininterface.IExplosion;
 import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.explosion.Explosion;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 import java.util.Objects;
 

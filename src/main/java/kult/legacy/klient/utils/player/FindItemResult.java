@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
 import net.minecraft.util.Hand;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class FindItemResult {
     private final int slot, count;

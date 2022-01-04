@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.renderer.operations;
+package kult.legacy.klient.gui.renderer.operations;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderOperation;
-import kultklient.legacy.client.renderer.text.TextRenderer;
+import kult.legacy.klient.gui.renderer.GuiRenderOperation;
+import kult.legacy.klient.renderer.text.TextRenderer;
 
 public class TextOperation extends GuiRenderOperation<TextOperation> {
     private String text;

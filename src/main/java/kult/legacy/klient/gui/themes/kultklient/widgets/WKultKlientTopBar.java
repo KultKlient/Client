@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.WTopBar;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.WTopBar;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WKultKlientTopBar extends WTopBar implements KultKlientWidget {
     @Override

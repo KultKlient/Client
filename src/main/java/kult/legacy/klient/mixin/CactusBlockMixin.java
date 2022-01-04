@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.world.AntiCactus;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.AntiCactus;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CactusBlock;
 import net.minecraft.block.ShapeContext;

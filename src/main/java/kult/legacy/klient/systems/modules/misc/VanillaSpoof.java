@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
 import io.netty.buffer.Unpooled;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.mixin.ICustomPayloadC2SPacketAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.mixin.ICustomPayloadC2SPacketAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.item.Items;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.network.packet.c2s.play.CustomPayloadC2SPacket;

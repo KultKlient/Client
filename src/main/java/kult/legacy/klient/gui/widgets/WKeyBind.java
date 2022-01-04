@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.utils.misc.KeyBind;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.utils.misc.KeyBind;
 
 public class WKeyBind extends WHorizontalList {
     public Runnable action;

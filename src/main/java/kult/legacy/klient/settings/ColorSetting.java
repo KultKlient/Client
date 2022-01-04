@@ -1,7 +1,7 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import com.google.common.collect.ImmutableList;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.List;

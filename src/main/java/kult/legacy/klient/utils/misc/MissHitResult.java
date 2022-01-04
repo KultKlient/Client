@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Vec3d;

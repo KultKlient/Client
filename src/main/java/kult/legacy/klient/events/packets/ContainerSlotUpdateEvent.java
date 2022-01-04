@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.packets;
+package kult.legacy.klient.events.packets;
 
 import net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket;
 

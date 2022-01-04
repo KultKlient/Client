@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets.input;
+package kult.legacy.klient.gui.widgets.input;
 
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
 
 import java.util.Locale;
 

@@ -1,20 +1,20 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
 import baritone.api.BaritoneAPI;
 import baritone.api.utils.Rotation;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.systems.enemies.Enemies;
-import kultklient.legacy.client.systems.modules.movement.NoFall;
-import kultklient.legacy.client.utils.misc.BaritoneUtils;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.entity.EntityUtils;
-import kultklient.legacy.client.utils.misc.text.TextUtils;
-import kultklient.legacy.client.utils.world.BlockUtils;
-import kultklient.legacy.client.utils.world.Dimension;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.systems.enemies.Enemies;
+import kult.legacy.klient.systems.modules.movement.NoFall;
+import kult.legacy.klient.utils.misc.BaritoneUtils;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.entity.EntityUtils;
+import kult.legacy.klient.utils.misc.text.TextUtils;
+import kult.legacy.klient.utils.world.BlockUtils;
+import kult.legacy.klient.utils.world.Dimension;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FluidBlock;
@@ -42,8 +42,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static kultklient.legacy.client.utils.Utils.WHITE;
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.utils.Utils.WHITE;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class PlayerUtils {
     private static final Vec3d hitPos = new Vec3d(0.0, 0.0, 0.0);

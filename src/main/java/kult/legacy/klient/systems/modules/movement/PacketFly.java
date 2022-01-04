@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.movement;
+package kult.legacy.klient.systems.modules.movement;
 
 import io.netty.util.internal.ConcurrentSet;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.events.entity.player.SendMovementPacketsEvent;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.mixin.PlayerPositionLookS2CPacketAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.player.PlayerUtils;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.events.entity.player.SendMovementPacketsEvent;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.mixin.PlayerPositionLookS2CPacketAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.player.PlayerUtils;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
 import net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket;

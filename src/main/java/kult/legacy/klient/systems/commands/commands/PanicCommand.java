@@ -1,9 +1,9 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.command.CommandSource;
 
 import java.util.ArrayList;

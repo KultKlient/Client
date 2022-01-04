@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.render.RenderUtils;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.render.RenderUtils;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;

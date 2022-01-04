@@ -1,4 +1,4 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import net.minecraft.block.Block;
 import net.minecraft.nbt.NbtCompound;

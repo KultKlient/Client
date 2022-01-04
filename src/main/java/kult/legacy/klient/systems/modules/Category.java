@@ -1,6 +1,6 @@
-package kultklient.legacy.client.systems.modules;
+package kult.legacy.klient.systems.modules;
 
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.item.Item;
 
 public class Category {

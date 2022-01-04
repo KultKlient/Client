@@ -1,18 +1,18 @@
-package kultklient.legacy.client.systems.modules.movement;
+package kult.legacy.klient.systems.modules.movement;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
 import net.minecraft.item.Items;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.shape.VoxelShapes;
 
-import kultklient.legacy.client.events.world.CollisionShapeEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.events.world.CollisionShapeEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.Module;
 
 public class Phase extends Module {
     private double prevX = Double.NaN;

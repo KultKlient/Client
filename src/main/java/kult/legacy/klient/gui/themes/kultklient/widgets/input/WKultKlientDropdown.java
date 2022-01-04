@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.input;
+package kult.legacy.klient.gui.themes.kultklient.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.input.WDropdown;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.input.WDropdown;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WKultKlientDropdown<T> extends WDropdown<T> implements KultKlientWidget {
     public WKultKlientDropdown(T[] values, T value) {

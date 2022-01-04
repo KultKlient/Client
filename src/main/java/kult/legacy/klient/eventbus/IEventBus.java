@@ -1,7 +1,7 @@
-package kultklient.legacy.client.eventbus;
+package kult.legacy.klient.eventbus;
 
-import kultklient.legacy.client.eventbus.listeners.IListener;
-import kultklient.legacy.client.eventbus.listeners.LambdaListener;
+import kult.legacy.klient.eventbus.listeners.IListener;
+import kult.legacy.klient.eventbus.listeners.LambdaListener;
 
 /**
  * Manages event listeners.
@@ -9,7 +9,7 @@ import kultklient.legacy.client.eventbus.listeners.LambdaListener;
 public interface IEventBus {
     /**
      * Registers a lambda factory to use with the specified package.
-     * @param packagePrefix Package prefix that this factory will be used for, eg "kultklient.legacy.client.eventbus"
+     * @param packagePrefix Package prefix that this factory will be used for, eg "kult.legacy.klient.eventbus"
      * @param factory The factory to use
      */
     void registerLambdaFactory(String packagePrefix, LambdaListener.Factory factory);

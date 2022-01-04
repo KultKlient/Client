@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.renderer;
+package kult.legacy.klient.gui.renderer;
 
-import kultklient.legacy.client.utils.misc.Pool;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.misc.Pool;
+import kult.legacy.klient.utils.render.color.Color;
 
 public abstract class GuiRenderOperation<T extends GuiRenderOperation<T>> {
     protected double x, y;

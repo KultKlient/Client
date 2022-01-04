@@ -1,20 +1,20 @@
-package kultklient.legacy.client.gui.screens.accounts;
+package kult.legacy.klient.gui.screens.accounts;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.WAccount;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.systems.accounts.Account;
-import kultklient.legacy.client.systems.accounts.Accounts;
-import kultklient.legacy.client.systems.accounts.MicrosoftLogin;
-import kultklient.legacy.client.systems.accounts.types.MicrosoftAccount;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.WAccount;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.systems.accounts.Account;
+import kult.legacy.klient.systems.accounts.Accounts;
+import kult.legacy.klient.systems.accounts.MicrosoftLogin;
+import kult.legacy.klient.systems.accounts.types.MicrosoftAccount;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
 import org.jetbrains.annotations.Nullable;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class AccountsScreen extends WindowScreen {
     public AccountsScreen(GuiTheme theme) {

@@ -17,7 +17,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "kultklient.legacy.client.KultKlientLegacy"
+      "kult.legacy.klient.KultKlientLegacy"
     ]
   },
   "mixins": [

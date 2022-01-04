@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.render;
+package kult.legacy.klient.systems.modules.render;
 
-import kultklient.legacy.client.events.game.ChangePerspectiveEvent;
-import kultklient.legacy.client.events.kultklientlegacy.MouseScrollEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.utils.misc.KeyBind;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.game.ChangePerspectiveEvent;
+import kult.legacy.klient.events.kultklientlegacy.MouseScrollEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.utils.misc.KeyBind;
+import kult.legacy.klient.settings.*;
 import net.minecraft.client.option.Perspective;
 import net.minecraft.item.Items;
 

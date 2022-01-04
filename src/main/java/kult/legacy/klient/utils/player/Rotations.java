@@ -1,12 +1,12 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.player.SendMovementPacketsEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.entity.Target;
-import kultklient.legacy.client.utils.misc.Pool;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.player.SendMovementPacketsEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.entity.Target;
+import kult.legacy.klient.utils.misc.Pool;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.entity.Entity;
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
 import net.minecraft.util.math.BlockPos;
@@ -16,7 +16,7 @@ import net.minecraft.util.math.Vec3d;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Rotations {
     private static final Pool<Rotation> rotationPool = new Pool<>(Rotation::new);

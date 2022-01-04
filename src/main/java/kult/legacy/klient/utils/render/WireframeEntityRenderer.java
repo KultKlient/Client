@@ -1,11 +1,11 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
-import kultklient.legacy.client.events.render.Render3DEvent;
-import kultklient.legacy.client.renderer.Renderer3D;
-import kultklient.legacy.client.renderer.ShapeMode;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Chams;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.events.render.Render3DEvent;
+import kult.legacy.klient.renderer.Renderer3D;
+import kult.legacy.klient.renderer.ShapeMode;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Chams;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.entity.*;
@@ -20,7 +20,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.*;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class WireframeEntityRenderer {
     private static final MatrixStack matrices = new MatrixStack();

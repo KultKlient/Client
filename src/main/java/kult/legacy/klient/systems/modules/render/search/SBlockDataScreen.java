@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.render.search;
+package kult.legacy.klient.systems.modules.render.search;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.renderer.ShapeMode;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.renderer.ShapeMode;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
 import net.minecraft.block.Block;
 
 public class SBlockDataScreen extends WindowScreen {

@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.client;
+package kult.legacy.klient.systems.modules.client;
 
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.misc.WindowUtils;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.misc.WindowUtils;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.item.Items;
 
 public class ClientSpoof extends Module {

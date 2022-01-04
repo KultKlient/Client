@@ -1,17 +1,17 @@
-package kultklient.legacy.client.gui.screens;
+package kult.legacy.klient.gui.screens;
 
 import com.google.common.util.concurrent.Runnables;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.tabs.Tabs;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.misc.NameProtect;
-import kultklient.legacy.client.systems.proxies.Proxies;
-import kultklient.legacy.client.systems.proxies.Proxy;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.tabs.Tabs;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.misc.NameProtect;
+import kult.legacy.klient.systems.proxies.Proxies;
+import kult.legacy.klient.systems.proxies.Proxy;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.SharedConstants;
 import net.minecraft.client.gui.Element;
 import net.minecraft.client.gui.screen.CreditsScreen;

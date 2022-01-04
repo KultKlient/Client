@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.pressable;
+package kult.legacy.klient.gui.themes.kultklient.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.utils.Utils;
 
 public class WKultKlientCheckbox extends WCheckbox implements KultKlientWidget {
     private double animProgress;

@@ -1,21 +1,21 @@
-package kultklient.legacy.client.systems.accounts.types;
+package kult.legacy.klient.systems.accounts.types;
 
 import com.mojang.authlib.Agent;
 import com.mojang.authlib.exceptions.AuthenticationException;
 import com.mojang.authlib.exceptions.AuthenticationUnavailableException;
 import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
 import com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.systems.accounts.AccountType;
-import kultklient.legacy.client.mixin.MinecraftClientAccessor;
-import kultklient.legacy.client.systems.accounts.Account;
-import kultklient.legacy.client.utils.misc.NbtException;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.systems.accounts.AccountType;
+import kult.legacy.klient.mixin.MinecraftClientAccessor;
+import kult.legacy.klient.systems.accounts.Account;
+import kult.legacy.klient.utils.misc.NbtException;
 import net.minecraft.client.util.Session;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.Optional;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class PremiumAccount extends Account<PremiumAccount> {
     private String password;

@@ -1,7 +1,7 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
-import kultklient.legacy.client.utils.misc.input.Input;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.misc.input.Input;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.nbt.NbtCompound;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_LEFT;

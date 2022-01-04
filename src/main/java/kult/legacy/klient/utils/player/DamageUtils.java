@@ -1,13 +1,13 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.mixininterface.IExplosion;
-import kultklient.legacy.client.mixininterface.IRaycastContext;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.utils.entity.EntityUtils;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerEntity;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.mixininterface.IExplosion;
+import kult.legacy.klient.mixininterface.IRaycastContext;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.utils.entity.EntityUtils;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerEntity;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -32,7 +32,7 @@ import net.minecraft.world.explosion.Explosion;
 
 import java.util.Objects;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class DamageUtils {
     private static final Vec3d vec3d = new Vec3d(0, 0, 0);

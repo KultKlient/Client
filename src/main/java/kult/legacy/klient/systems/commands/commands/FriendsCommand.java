@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.arguments.ArgumentType;
@@ -7,11 +7,11 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.friends.Friend;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.utils.render.ToastSystem;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.friends.Friend;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.utils.render.ToastSystem;
 import net.minecraft.command.CommandSource;
 import net.minecraft.item.Items;
 import net.minecraft.util.Formatting;

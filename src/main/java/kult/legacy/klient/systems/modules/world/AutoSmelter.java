@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.world;
+package kult.legacy.klient.systems.modules.world;
 
-import kultklient.legacy.client.mixin.AbstractFurnaceScreenHandlerAccessor;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.ItemListSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.player.InvUtils;
+import kult.legacy.klient.mixin.AbstractFurnaceScreenHandlerAccessor;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.ItemListSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.player.InvUtils;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.Item;

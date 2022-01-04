@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.client.font.TextHandler;
 import org.spongepowered.asm.mixin.Mixin;

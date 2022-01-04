@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.kultklientlegacy;
+package kult.legacy.klient.events.kultklientlegacy;
 
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Module;
 
 public class ModuleBindChangedEvent {
     private static final ModuleBindChangedEvent INSTANCE = new ModuleBindChangedEvent();

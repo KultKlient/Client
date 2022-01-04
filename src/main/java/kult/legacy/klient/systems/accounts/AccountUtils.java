@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
 import com.google.gson.Gson;
 import com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService;
-import kultklient.legacy.client.utils.network.HTTP;
+import kult.legacy.klient.utils.network.HTTP;
 
 import java.lang.reflect.Field;
 import java.net.MalformedURLException;

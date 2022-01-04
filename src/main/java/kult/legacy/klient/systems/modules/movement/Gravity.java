@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.movement;
+package kult.legacy.klient.systems.modules.movement;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 import net.minecraft.util.math.Vec3d;
 

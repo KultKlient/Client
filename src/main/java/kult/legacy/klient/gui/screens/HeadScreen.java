@@ -1,19 +1,19 @@
-package kultklient.legacy.client.gui.screens;
+package kult.legacy.klient.gui.screens;
 
 import com.google.common.reflect.TypeToken;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.Settings;
-import kultklient.legacy.client.utils.network.HTTP;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
-import kultklient.legacy.client.utils.misc.ChatUtils;
-import kultklient.legacy.client.utils.player.GiveUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.Settings;
+import kult.legacy.klient.utils.network.HTTP;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
+import kult.legacy.klient.utils.misc.ChatUtils;
+import kult.legacy.klient.utils.player.GiveUtils;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class HeadScreen extends WindowScreen {
     private static final Type gsonType = new TypeToken<List<Map<String, String>>>() {}.getType();

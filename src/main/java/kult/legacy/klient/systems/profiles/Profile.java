@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.profiles;
+package kult.legacy.klient.systems.profiles;
 
-import kultklient.legacy.client.systems.enemies.Enemies;
-import kultklient.legacy.client.systems.waypoints.Waypoints;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.accounts.Accounts;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.macros.Macros;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.systems.enemies.Enemies;
+import kult.legacy.klient.systems.waypoints.Waypoints;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.accounts.Accounts;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.macros.Macros;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;

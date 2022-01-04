@@ -1,7 +1,7 @@
-package kultklient.legacy.client.utils.misc.input;
+package kult.legacy.klient.utils.misc.input;
 
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.mixin.KeyBindingAccessor;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.mixin.KeyBindingAccessor;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;

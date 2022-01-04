@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.render;
+package kult.legacy.klient.systems.modules.render;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.render.Render2DEvent;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.render.Render2DEvent;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 
 public class CustomCrosshair extends Module {

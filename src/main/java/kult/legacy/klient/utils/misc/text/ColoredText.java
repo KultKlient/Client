@@ -1,6 +1,6 @@
-package kultklient.legacy.client.utils.misc.text;
+package kult.legacy.klient.utils.misc.text;
 
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.Color;
 
 import java.util.Objects;
 

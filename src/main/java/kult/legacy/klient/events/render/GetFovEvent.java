@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
 public class GetFovEvent {
     private static final GetFovEvent INSTANCE = new GetFovEvent();

@@ -1,9 +1,9 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.sound.PositionedSoundInstance;
 import net.minecraft.client.sound.SoundInstance;
@@ -20,7 +20,7 @@ import net.minecraft.text.TextColor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ToastSystem implements Toast {
     public static final int TITLE_COLOR = Color.fromRGBA(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 255);

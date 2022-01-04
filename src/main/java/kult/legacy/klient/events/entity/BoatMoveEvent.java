@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.entity;
+package kult.legacy.klient.events.entity;
 
 import net.minecraft.entity.vehicle.BoatEntity;
 

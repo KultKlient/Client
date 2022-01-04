@@ -1,19 +1,19 @@
-package kultklient.legacy.client.utils.render.prompts;
+package kult.legacy.klient.utils.render.prompts;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.systems.config.Config;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.systems.config.Config;
 import net.minecraft.client.gui.screen.Screen;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class OkPrompt {
     private final GuiTheme theme;

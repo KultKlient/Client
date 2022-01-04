@@ -1,9 +1,9 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.IGetter;
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.IGetter;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

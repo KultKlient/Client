@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules.movement.speed;
+package kult.legacy.klient.systems.modules.movement.speed;
 
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

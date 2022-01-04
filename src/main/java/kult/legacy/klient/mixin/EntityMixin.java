@@ -1,17 +1,17 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.LivingEntityMoveEvent;
-import kultklient.legacy.client.events.entity.player.JumpVelocityMultiplierEvent;
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.systems.modules.combat.Hitboxes;
-import kultklient.legacy.client.systems.modules.movement.Moses;
-import kultklient.legacy.client.systems.modules.movement.NoSlow;
-import kultklient.legacy.client.systems.modules.movement.Velocity;
-import kultklient.legacy.client.systems.modules.render.ESP;
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.utils.render.EntityShaders;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.LivingEntityMoveEvent;
+import kult.legacy.klient.events.entity.player.JumpVelocityMultiplierEvent;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.systems.modules.combat.Hitboxes;
+import kult.legacy.klient.systems.modules.movement.Moses;
+import kult.legacy.klient.systems.modules.movement.NoSlow;
+import kult.legacy.klient.systems.modules.movement.Velocity;
+import kult.legacy.klient.systems.modules.render.ESP;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.utils.render.EntityShaders;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -34,7 +34,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(Entity.class)
 public abstract class EntityMixin {

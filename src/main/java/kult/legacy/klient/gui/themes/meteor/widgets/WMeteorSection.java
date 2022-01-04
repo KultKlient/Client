@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets;
+package kult.legacy.klient.gui.themes.meteor.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WSection;
-import kultklient.legacy.client.gui.widgets.pressable.WTriangle;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WSection;
+import kult.legacy.klient.gui.widgets.pressable.WTriangle;
 
 public class WMeteorSection extends WSection {
     public WMeteorSection(String title, boolean expanded, WWidget headerWidget) {

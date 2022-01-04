@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets.pressable;
+package kult.legacy.klient.gui.themes.meteor.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WPlus;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.pressable.WPlus;
 
 public class WMeteorPlus extends WPlus implements MeteorWidget {
     @Override

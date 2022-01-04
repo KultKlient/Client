@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.mixin.PlayerPositionLookS2CPacketAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.mixin.PlayerPositionLookS2CPacketAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.item.Items;
 import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
 

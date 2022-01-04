@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.commands.arguments;
+package kult.legacy.klient.systems.commands.arguments;
 
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.arguments.ArgumentType;
@@ -15,7 +15,7 @@ import java.util.Collection;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class PlayerListEntryArgumentType implements ArgumentType<PlayerListEntry> {
 

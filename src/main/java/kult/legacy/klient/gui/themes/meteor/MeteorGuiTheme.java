@@ -1,30 +1,30 @@
-package kultklient.legacy.client.gui.themes.meteor;
+package kult.legacy.klient.gui.themes.meteor;
 
-import kultklient.legacy.client.gui.DefaultSettingsWidgetFactory;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.renderer.packer.GuiTexture;
-import kultklient.legacy.client.gui.themes.meteor.widgets.input.*;
-import kultklient.legacy.client.gui.utils.AlignmentX;
-import kultklient.legacy.client.gui.utils.CharFilter;
-import kultklient.legacy.client.gui.widgets.containers.WSection;
-import kultklient.legacy.client.gui.widgets.containers.WView;
-import kultklient.legacy.client.gui.widgets.containers.WWindow;
-import kultklient.legacy.client.gui.widgets.input.WDropdown;
-import kultklient.legacy.client.gui.widgets.input.WSlider;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.renderer.text.TextRenderer;
-import kultklient.legacy.client.systems.accounts.Account;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.gui.themes.meteor.widgets.*;
-import kultklient.legacy.client.gui.themes.meteor.widgets.pressable.*;
-import kultklient.legacy.client.gui.widgets.*;
-import kultklient.legacy.client.gui.widgets.pressable.*;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.gui.DefaultSettingsWidgetFactory;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.renderer.packer.GuiTexture;
+import kult.legacy.klient.gui.themes.meteor.widgets.input.*;
+import kult.legacy.klient.gui.utils.AlignmentX;
+import kult.legacy.klient.gui.utils.CharFilter;
+import kult.legacy.klient.gui.widgets.containers.WSection;
+import kult.legacy.klient.gui.widgets.containers.WView;
+import kult.legacy.klient.gui.widgets.containers.WWindow;
+import kult.legacy.klient.gui.widgets.input.WDropdown;
+import kult.legacy.klient.gui.widgets.input.WSlider;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.renderer.text.TextRenderer;
+import kult.legacy.klient.systems.accounts.Account;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.gui.themes.meteor.widgets.*;
+import kult.legacy.klient.gui.themes.meteor.widgets.pressable.*;
+import kult.legacy.klient.gui.widgets.*;
+import kult.legacy.klient.gui.widgets.pressable.*;
+import kult.legacy.klient.settings.*;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class MeteorGuiTheme extends GuiTheme {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();

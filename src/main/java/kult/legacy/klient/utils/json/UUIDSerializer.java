@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.json;
+package kult.legacy.klient.utils.json;
 
 import com.google.gson.*;
 

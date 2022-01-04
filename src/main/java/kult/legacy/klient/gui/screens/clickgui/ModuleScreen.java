@@ -1,20 +1,20 @@
-package kultklient.legacy.client.gui.screens.clickgui;
+package kult.legacy.klient.gui.screens.clickgui;
 
-import kultklient.legacy.client.events.kultklientlegacy.ModuleBindChangedEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WKeyBind;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WSection;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.utils.misc.NbtUtils;
+import kult.legacy.klient.events.kultklientlegacy.ModuleBindChangedEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WKeyBind;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WSection;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.utils.misc.NbtUtils;
 import net.minecraft.nbt.NbtCompound;
 
 public class ModuleScreen extends WindowScreen {

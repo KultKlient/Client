@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.world;
+package kult.legacy.klient.events.world;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 
 public class ChunkOcclusionEvent extends Cancellable {
     private static final ChunkOcclusionEvent INSTANCE = new ChunkOcclusionEvent();

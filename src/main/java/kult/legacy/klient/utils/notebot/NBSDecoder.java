@@ -1,9 +1,9 @@
-package kultklient.legacy.client.utils.notebot;
+package kult.legacy.klient.utils.notebot;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.utils.notebot.nbs.Layer;
-import kultklient.legacy.client.utils.notebot.nbs.Note;
-import kultklient.legacy.client.utils.notebot.nbs.Song;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.utils.notebot.nbs.Layer;
+import kult.legacy.klient.utils.notebot.nbs.Note;
+import kult.legacy.klient.utils.notebot.nbs.Song;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

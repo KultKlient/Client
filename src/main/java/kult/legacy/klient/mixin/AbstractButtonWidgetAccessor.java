@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.client.gui.widget.ClickableWidget;
 import net.minecraft.text.Text;

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.entity.player;
+package kult.legacy.klient.events.entity.player;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 

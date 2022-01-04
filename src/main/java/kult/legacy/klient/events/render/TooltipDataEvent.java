@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
 import net.minecraft.client.item.TooltipData;
 import net.minecraft.item.ItemStack;

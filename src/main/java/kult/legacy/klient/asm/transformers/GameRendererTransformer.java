@@ -1,9 +1,9 @@
-package kultklient.legacy.client.asm.transformers;
+package kult.legacy.klient.asm.transformers;
 
-import kultklient.legacy.client.asm.AsmTransformer;
-import kultklient.legacy.client.asm.Descriptor;
-import kultklient.legacy.client.asm.FieldInfo;
-import kultklient.legacy.client.asm.MethodInfo;
+import kult.legacy.klient.asm.AsmTransformer;
+import kult.legacy.klient.asm.Descriptor;
+import kult.legacy.klient.asm.FieldInfo;
+import kult.legacy.klient.asm.MethodInfo;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 

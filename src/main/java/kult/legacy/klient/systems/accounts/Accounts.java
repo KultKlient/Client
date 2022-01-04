@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
-import kultklient.legacy.client.systems.accounts.types.CrackedAccount;
-import kultklient.legacy.client.systems.accounts.types.MicrosoftAccount;
-import kultklient.legacy.client.systems.accounts.types.PremiumAccount;
-import kultklient.legacy.client.systems.accounts.types.TheAlteningAccount;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.utils.misc.NbtException;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
+import kult.legacy.klient.systems.accounts.types.CrackedAccount;
+import kult.legacy.klient.systems.accounts.types.MicrosoftAccount;
+import kult.legacy.klient.systems.accounts.types.PremiumAccount;
+import kult.legacy.klient.systems.accounts.types.TheAlteningAccount;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.utils.misc.NbtException;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.ArrayList;

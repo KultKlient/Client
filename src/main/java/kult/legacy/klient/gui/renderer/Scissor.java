@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.renderer;
+package kult.legacy.klient.gui.renderer;
 
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

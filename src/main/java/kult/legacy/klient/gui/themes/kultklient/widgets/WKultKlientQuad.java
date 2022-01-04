@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.WQuad;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.WQuad;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WKultKlientQuad extends WQuad {
     public WKultKlientQuad(Color color) {

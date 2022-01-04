@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events;
+package kult.legacy.klient.events;
 
-import kultklient.legacy.client.eventbus.ICancellable;
+import kult.legacy.klient.eventbus.ICancellable;
 
 public class Cancellable implements ICancellable {
     private boolean cancelled = false;

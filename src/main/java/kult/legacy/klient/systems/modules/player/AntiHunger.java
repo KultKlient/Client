@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.mixin.PlayerMoveC2SPacketAccessor;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.mixin.PlayerMoveC2SPacketAccessor;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;

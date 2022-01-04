@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets;
+package kult.legacy.klient.gui.themes.kultklient.widgets;
 
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.WAccount;
-import kultklient.legacy.client.systems.accounts.Account;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.WAccount;
+import kult.legacy.klient.systems.accounts.Account;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WKultKlientAccount extends WAccount implements KultKlientWidget {
     public WKultKlientAccount(WidgetScreen screen, Account<?> account) {

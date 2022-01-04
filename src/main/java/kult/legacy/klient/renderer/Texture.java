@@ -1,4 +1,4 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import org.lwjgl.BufferUtils;

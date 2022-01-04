@@ -1,18 +1,18 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.client.ClientSpoof;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.systems.modules.render.hud.TripleTextHudElement;
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.settings.DoubleSetting;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.client.ClientSpoof;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.systems.modules.render.hud.TripleTextHudElement;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.settings.DoubleSetting;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
 import net.minecraft.util.Identifier;
 
 public class WatermarkHud extends TripleTextHudElement {

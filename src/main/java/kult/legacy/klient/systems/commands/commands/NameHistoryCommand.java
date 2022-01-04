@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.google.common.reflect.TypeToken;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.arguments.PlayerListEntryArgumentType;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.utils.misc.text.TextUtils;
-import kultklient.legacy.client.utils.network.HTTP;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
-import kultklient.legacy.client.utils.misc.ChatUtils;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.systems.commands.arguments.PlayerListEntryArgumentType;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.utils.misc.text.TextUtils;
+import kult.legacy.klient.utils.network.HTTP;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
+import kult.legacy.klient.utils.misc.ChatUtils;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.network.PlayerListEntry;
 import net.minecraft.command.CommandSource;
 import net.minecraft.text.*;

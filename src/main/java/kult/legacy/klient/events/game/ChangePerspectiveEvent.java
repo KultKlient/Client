@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.client.option.Perspective;
 
 public class ChangePerspectiveEvent extends Cancellable {

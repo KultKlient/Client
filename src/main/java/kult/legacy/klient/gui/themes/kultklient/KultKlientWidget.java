@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.kultklient;
+package kult.legacy.klient.gui.themes.kultklient;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.BaseWidget;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.BaseWidget;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.utils.render.color.Color;
 
 public interface KultKlientWidget extends BaseWidget {
     default KultKlientGuiTheme theme() {

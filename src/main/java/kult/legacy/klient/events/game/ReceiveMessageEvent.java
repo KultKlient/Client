@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.text.Text;
 
 public class ReceiveMessageEvent extends Cancellable {

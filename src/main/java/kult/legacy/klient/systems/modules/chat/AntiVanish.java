@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.chat;
+package kult.legacy.klient.systems.modules.chat;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;

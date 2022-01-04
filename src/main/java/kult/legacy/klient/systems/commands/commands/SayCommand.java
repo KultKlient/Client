@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.chat.BetterChat;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.chat.BetterChat;
+import kult.legacy.klient.utils.misc.ChatUtils;
 import net.minecraft.command.CommandSource;
 import net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket;
 import net.minecraft.text.BaseText;

@@ -1,11 +1,11 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.DropItemsEvent;
-import kultklient.legacy.client.events.entity.player.ClipAtLedgeEvent;
-import kultklient.legacy.client.systems.modules.movement.Anchor;
-import kultklient.legacy.client.systems.modules.player.SpeedMine;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.DropItemsEvent;
+import kult.legacy.klient.events.entity.player.ClipAtLedgeEvent;
+import kult.legacy.klient.systems.modules.movement.Anchor;
+import kult.legacy.klient.systems.modules.player.SpeedMine;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(PlayerEntity.class)
 public class PlayerEntityMixin {

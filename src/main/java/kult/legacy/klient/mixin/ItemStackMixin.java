@@ -1,10 +1,10 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.entity.player.FinishUsingItemEvent;
-import kultklient.legacy.client.events.entity.player.StoppedUsingItemEvent;
-import kultklient.legacy.client.events.game.ItemStackTooltipEvent;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.entity.player.FinishUsingItemEvent;
+import kult.legacy.klient.events.entity.player.StoppedUsingItemEvent;
+import kult.legacy.klient.events.game.ItemStackTooltipEvent;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,7 +20,7 @@ import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(ItemStack.class)
 public abstract class ItemStackMixin {

@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.utils.render.prompts.OkPrompt;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.utils.render.prompts.OkPrompt;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtIo;
@@ -13,7 +13,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.util.*;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class NbtUtils {
     public static <T extends ISerializable<?>> NbtList listToTag(Iterable<T> list) {

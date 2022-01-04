@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.movement;
+package kult.legacy.klient.systems.modules.movement;
 
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.mixininterface.IHorseBaseEntity;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.mixin.ClientPlayerEntityAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.mixininterface.IHorseBaseEntity;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.mixin.ClientPlayerEntityAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.HorseBaseEntity;
 import net.minecraft.item.Items;

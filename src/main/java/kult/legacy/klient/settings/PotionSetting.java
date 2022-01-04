@@ -1,6 +1,6 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
-import kultklient.legacy.client.utils.misc.MyPotion;
+import kult.legacy.klient.utils.misc.MyPotion;
 
 import java.util.function.Consumer;
 

@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.world;
+package kult.legacy.klient.systems.modules.world;
 
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.entity.SortPriority;
-import kultklient.legacy.client.utils.entity.TargetUtils;
-import kultklient.legacy.client.utils.player.*;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.entity.SortPriority;
+import kult.legacy.klient.utils.entity.TargetUtils;
+import kult.legacy.klient.utils.player.*;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Items;

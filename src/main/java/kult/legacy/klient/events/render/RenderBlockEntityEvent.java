@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 import net.minecraft.block.entity.BlockEntity;
 
 public class RenderBlockEntityEvent extends Cancellable {

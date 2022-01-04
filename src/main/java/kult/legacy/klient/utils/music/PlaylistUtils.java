@@ -1,7 +1,7 @@
-package kultklient.legacy.client.utils.music;
+package kult.legacy.klient.utils.music;
 
 import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
-import kultklient.legacy.client.KultKlientLegacy;
+import kult.legacy.klient.KultKlientLegacy;
 
 import java.io.File;
 import java.io.IOException;

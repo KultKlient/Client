@@ -1,19 +1,19 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.events.render.Render2DEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.screens.HudElementScreen;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.events.render.Render2DEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.screens.HudElementScreen;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.nbt.NbtCompound;
@@ -22,7 +22,7 @@ import org.lwjgl.glfw.GLFW;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class HudTab extends Tab {
     public static HudTab INSTANCE;

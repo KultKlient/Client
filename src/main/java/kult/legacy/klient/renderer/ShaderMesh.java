@@ -1,4 +1,4 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 public class ShaderMesh extends Mesh {
     private final Shader shader;

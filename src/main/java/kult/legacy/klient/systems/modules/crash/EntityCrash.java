@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.modules.crash;
+package kult.legacy.klient.systems.modules.crash;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.game.GameLeftEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.game.GameLeftEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.VehicleMoveC2SPacket;

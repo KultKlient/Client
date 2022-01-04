@@ -1,27 +1,27 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.events.kultklientlegacy.MouseButtonEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.gui.widgets.WKeyBind;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WMinus;
-import kultklient.legacy.client.gui.widgets.pressable.WPlus;
-import kultklient.legacy.client.systems.macros.Macro;
-import kultklient.legacy.client.systems.macros.Macros;
-import kultklient.legacy.client.utils.misc.NbtUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.events.kultklientlegacy.MouseButtonEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.gui.widgets.WKeyBind;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WMinus;
+import kult.legacy.klient.gui.widgets.pressable.WPlus;
+import kult.legacy.klient.systems.macros.Macro;
+import kult.legacy.klient.systems.macros.Macros;
+import kult.legacy.klient.utils.misc.NbtUtils;
 import net.minecraft.client.gui.screen.Screen;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class MacrosTab extends Tab {
     public MacrosTab() {

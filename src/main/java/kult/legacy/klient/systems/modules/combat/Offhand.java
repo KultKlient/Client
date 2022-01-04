@@ -1,19 +1,19 @@
-package kultklient.legacy.client.systems.modules.combat;
+package kult.legacy.klient.systems.modules.combat;
 
-import kultklient.legacy.client.events.kultklientlegacy.MouseButtonEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
-import kultklient.legacy.client.utils.player.FindItemResult;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.events.kultklientlegacy.MouseButtonEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.misc.input.KeyAction;
+import kult.legacy.klient.utils.player.FindItemResult;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.utils.player.PlayerUtils;
 import net.minecraft.item.*;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_RIGHT;

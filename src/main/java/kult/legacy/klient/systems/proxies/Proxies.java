@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.proxies;
+package kult.legacy.klient.systems.proxies;
 
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.systems.System;
 import net.minecraft.nbt.NbtCompound;
 import org.jetbrains.annotations.NotNull;
 

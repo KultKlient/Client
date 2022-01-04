@@ -1,17 +1,17 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
 
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.music.Music;
-import kultklient.legacy.client.renderer.Mesh;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.renderer.text.TextRenderer;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.HudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HudRenderer;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.music.Music;
+import kult.legacy.klient.renderer.Mesh;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.renderer.text.TextRenderer;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.HudElement;
+import kult.legacy.klient.systems.modules.render.hud.HudRenderer;
+import kult.legacy.klient.utils.render.color.SettingColor;
 
 public class MusicHud extends HudElement {
     private static String time = "00:00:00";

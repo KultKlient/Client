@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.accounts.types;
+package kult.legacy.klient.systems.accounts.types;
 
-import kultklient.legacy.client.systems.accounts.AccountType;
-import kultklient.legacy.client.systems.accounts.Account;
+import kult.legacy.klient.systems.accounts.AccountType;
+import kult.legacy.klient.systems.accounts.Account;
 import net.minecraft.client.util.Session;
 
 import java.util.Optional;

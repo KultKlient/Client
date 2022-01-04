@@ -1,8 +1,8 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import it.unimi.dsi.fastutil.objects.Object2IntArrayMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.Identifier;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import io.netty.channel.Channel;
 import net.minecraft.network.ClientConnection;

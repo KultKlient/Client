@@ -1,7 +1,7 @@
-package kultklient.legacy.client.gui.widgets.input;
+package kult.legacy.klient.gui.widgets.input;
 
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.utils.Utils;
 
 public abstract class WSlider extends WWidget {
     public Runnable action;

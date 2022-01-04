@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.modules.combat;
+package kult.legacy.klient.systems.modules.combat;
 
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.mixin.ProjectileInGroundAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.mixin.ProjectileInGroundAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;

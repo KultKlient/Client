@@ -1,15 +1,15 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.math.Vec3d;
 import org.lwjgl.BufferUtils;
 
 import java.nio.ByteBuffer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 import static org.lwjgl.opengl.GL32C.*;
 import static org.lwjgl.system.MemoryUtil.*;

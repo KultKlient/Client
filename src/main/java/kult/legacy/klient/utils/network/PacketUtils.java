@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.network;
+package kult.legacy.klient.utils.network;
 
 import com.google.common.collect.Iterators;
 import com.mojang.serialization.Lifecycle;

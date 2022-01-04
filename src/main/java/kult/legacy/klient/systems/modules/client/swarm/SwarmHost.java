@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules.client.swarm;
+package kult.legacy.klient.systems.modules.client.swarm;
 
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
+import kult.legacy.klient.utils.misc.ChatUtils;
 
 import java.io.IOException;
 import java.net.ServerSocket;

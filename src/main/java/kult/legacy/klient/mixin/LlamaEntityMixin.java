@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.movement.EntityControl;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.movement.EntityControl;
+import kult.legacy.klient.systems.modules.Modules;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

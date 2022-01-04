@@ -1,17 +1,17 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.mixin.ChatHudAccessor;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.client.ClientSpoof;
-import kultklient.legacy.client.utils.render.color.RainbowColor;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.mixin.ChatHudAccessor;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.client.ClientSpoof;
+import kult.legacy.klient.utils.render.color.RainbowColor;
 import net.minecraft.text.*;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.math.Vec3d;
 import org.jetbrains.annotations.Nullable;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ChatUtils {
     private static final RainbowColor RAINBOW = new RainbowColor();

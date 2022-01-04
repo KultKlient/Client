@@ -1,20 +1,20 @@
-package kultklient.legacy.client.systems;
+package kult.legacy.klient.systems;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.events.game.GameLeftEvent;
-import kultklient.legacy.client.systems.accounts.Accounts;
-import kultklient.legacy.client.systems.commands.Commands;
-import kultklient.legacy.client.systems.enemies.Enemies;
-import kultklient.legacy.client.systems.macros.Macros;
-import kultklient.legacy.client.systems.profiles.Profiles;
-import kultklient.legacy.client.systems.waypoints.Waypoints;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.proxies.Proxies;
-import kultklient.legacy.client.utils.Version;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.events.game.GameLeftEvent;
+import kult.legacy.klient.systems.accounts.Accounts;
+import kult.legacy.klient.systems.commands.Commands;
+import kult.legacy.klient.systems.enemies.Enemies;
+import kult.legacy.klient.systems.macros.Macros;
+import kult.legacy.klient.systems.profiles.Profiles;
+import kult.legacy.klient.systems.waypoints.Waypoints;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.proxies.Proxies;
+import kult.legacy.klient.utils.Version;
 
 import java.io.File;
 import java.util.ArrayList;

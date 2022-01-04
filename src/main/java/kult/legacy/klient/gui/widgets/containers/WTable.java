@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.widgets.containers;
+package kult.legacy.klient.gui.widgets.containers;
 
 import it.unimi.dsi.fastutil.doubles.DoubleArrayList;
 import it.unimi.dsi.fastutil.doubles.DoubleList;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.ints.IntList;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
 
 import java.util.ArrayList;
 import java.util.Iterator;

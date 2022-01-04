@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.settings.ItemListSetting;
-import kultklient.legacy.client.utils.misc.Names;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.settings.ItemListSetting;
+import kult.legacy.klient.utils.misc.Names;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.util.registry.Registry;

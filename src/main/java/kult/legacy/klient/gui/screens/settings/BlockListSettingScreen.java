@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.mixin.IdentifierAccessor;
-import kultklient.legacy.client.settings.BlockListSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.utils.misc.Names;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.mixin.IdentifierAccessor;
+import kult.legacy.klient.settings.BlockListSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.utils.misc.Names;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;

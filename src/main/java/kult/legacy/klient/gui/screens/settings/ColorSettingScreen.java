@@ -1,21 +1,21 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.WQuad;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WIntEdit;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.WQuad;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WIntEdit;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.SettingColor;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ColorSettingScreen extends WindowScreen {
     private static final Color[] HUE_COLORS = { new Color(255, 0, 0), new Color(255, 255, 0), new Color(0, 255, 0), new Color(0, 255, 255), new Color(0, 0, 255), new Color(255, 0, 255), new Color(255, 0, 0) };

@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.world;
+package kult.legacy.klient.systems.modules.world;
 
-import kultklient.legacy.client.settings.BoolSetting;
-import kultklient.legacy.client.settings.ColorSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.BoolSetting;
+import kult.legacy.klient.settings.ColorSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.client.render.DimensionEffects;
 import net.minecraft.item.Items;
 import net.minecraft.util.math.Vec3d;

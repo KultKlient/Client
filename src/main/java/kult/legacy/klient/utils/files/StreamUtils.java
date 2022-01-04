@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.files;
+package kult.legacy.klient.utils.files;
 
 import java.io.*;
 

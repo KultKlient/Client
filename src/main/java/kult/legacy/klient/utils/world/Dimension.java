@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
 public enum Dimension {
     Overworld,

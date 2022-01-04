@@ -1,4 +1,4 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
 import org.lwjgl.opengl.GL32C;
 

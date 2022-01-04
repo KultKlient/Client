@@ -1,6 +1,6 @@
-package kultklient.legacy.client.systems.modules.render.marker;
+package kult.legacy.klient.systems.modules.render.marker;
 
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.Modules;
 
 import java.util.HashMap;
 import java.util.Map;

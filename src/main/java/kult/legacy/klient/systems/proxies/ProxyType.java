@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.proxies;
+package kult.legacy.klient.systems.proxies;
 
 public enum ProxyType {
     Socks4,

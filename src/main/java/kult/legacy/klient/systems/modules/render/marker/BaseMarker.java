@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.render.marker;
+package kult.legacy.klient.systems.modules.render.marker;
 
-import kultklient.legacy.client.events.render.Render3DEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.screens.MarkerScreen;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.player.PlayerUtils;
-import kultklient.legacy.client.utils.world.Dimension;
+import kult.legacy.klient.events.render.Render3DEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.screens.MarkerScreen;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.player.PlayerUtils;
+import kult.legacy.klient.utils.world.Dimension;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.nbt.NbtCompound;
 

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 import baritone.api.BaritoneAPI;
 import baritone.api.utils.Rotation;

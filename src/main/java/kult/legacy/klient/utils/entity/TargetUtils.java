@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.entity;
+package kult.legacy.klient.utils.entity;
 
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerManager;
-import kultklient.legacy.client.utils.player.Rotations;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerEntity;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerManager;
+import kult.legacy.klient.utils.player.Rotations;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class TargetUtils {
     private static final List<Entity> ENTITIES = new ArrayList<>();

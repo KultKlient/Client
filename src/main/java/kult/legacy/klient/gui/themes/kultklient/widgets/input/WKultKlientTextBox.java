@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.input;
+package kult.legacy.klient.gui.themes.kultklient.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.utils.CharFilter;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.utils.CharFilter;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.utils.Utils;
 
 public class WKultKlientTextBox extends WTextBox implements KultKlientWidget {
     private boolean cursorVisible;

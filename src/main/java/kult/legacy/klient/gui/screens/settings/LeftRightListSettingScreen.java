@@ -1,14 +1,14 @@
-package kultklient.legacy.client.gui.screens.settings;
+package kult.legacy.klient.gui.screens.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.pressable.WPressable;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.pressable.WPressable;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.util.Pair;
 import net.minecraft.util.registry.Registry;
 

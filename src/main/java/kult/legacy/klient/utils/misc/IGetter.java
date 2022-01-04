@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 public interface IGetter<T> {
     T get();

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.network;
+package kult.legacy.klient.utils.network;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

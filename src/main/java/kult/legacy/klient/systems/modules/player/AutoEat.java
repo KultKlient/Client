@@ -1,20 +1,20 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
 import baritone.api.BaritoneAPI;
-import kultklient.legacy.client.events.entity.player.ItemUseCrosshairTargetEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.combat.BedAura;
-import kultklient.legacy.client.systems.modules.combat.KillAura;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.combat.AnchorAura;
-import kultklient.legacy.client.systems.modules.combat.CrystalAura;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.entity.player.ItemUseCrosshairTargetEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.combat.BedAura;
+import kult.legacy.klient.systems.modules.combat.KillAura;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.combat.AnchorAura;
+import kult.legacy.klient.systems.modules.combat.CrystalAura;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 

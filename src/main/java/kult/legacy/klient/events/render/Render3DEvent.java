@@ -1,7 +1,7 @@
-package kultklient.legacy.client.events.render;
+package kult.legacy.klient.events.render;
 
-import kultklient.legacy.client.renderer.Renderer3D;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.renderer.Renderer3D;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.util.math.MatrixStack;
 
 public class Render3DEvent {

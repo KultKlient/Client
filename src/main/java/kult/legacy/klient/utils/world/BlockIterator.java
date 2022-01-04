@@ -1,11 +1,11 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.Pool;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.Pool;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
 
@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.BiConsumer;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class BlockIterator {
     private static final Pool<Callback> callbackPool = new Pool<>(Callback::new);

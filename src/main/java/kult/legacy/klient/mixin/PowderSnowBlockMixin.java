@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.movement.Jesus;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.movement.Jesus;
 import net.minecraft.block.PowderSnowBlock;
 import net.minecraft.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;

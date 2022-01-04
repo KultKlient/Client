@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.movement.speed.modes;
+package kult.legacy.klient.systems.modules.movement.speed.modes;
 
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.movement.Anchor;
-import kultklient.legacy.client.systems.modules.movement.speed.SpeedMode;
-import kultklient.legacy.client.systems.modules.movement.speed.SpeedModes;
-import kultklient.legacy.client.utils.player.PlayerUtils;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.movement.Anchor;
+import kult.legacy.klient.systems.modules.movement.speed.SpeedMode;
+import kult.legacy.klient.systems.modules.movement.speed.SpeedModes;
+import kult.legacy.klient.utils.player.PlayerUtils;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.Vec3d;
 

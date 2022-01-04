@@ -1,19 +1,19 @@
-package kultklient.legacy.client.gui.widgets.input;
+package kult.legacy.klient.gui.widgets.input;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.entity.player.InteractBlockEvent;
-import kultklient.legacy.client.events.entity.player.StartBreakingBlockEvent;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.marker.Marker;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.entity.player.InteractBlockEvent;
+import kult.legacy.klient.events.entity.player.StartBreakingBlockEvent;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.marker.Marker;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 
-import static kultklient.legacy.client.utils.Utils.canUpdate;
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.utils.Utils.canUpdate;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class WBlockPosEdit extends WHorizontalList {
     public Runnable action;

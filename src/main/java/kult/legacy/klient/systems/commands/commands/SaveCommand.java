@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.systems.commands.Command;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.systems.commands.Command;
 import net.minecraft.command.CommandSource;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;

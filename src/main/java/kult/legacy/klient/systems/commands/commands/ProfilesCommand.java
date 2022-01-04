@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.arguments.ProfileArgumentType;
-import kultklient.legacy.client.systems.profiles.Profile;
-import kultklient.legacy.client.systems.profiles.Profiles;
-import kultklient.legacy.client.systems.commands.Command;
+import kult.legacy.klient.systems.commands.arguments.ProfileArgumentType;
+import kult.legacy.klient.systems.profiles.Profile;
+import kult.legacy.klient.systems.profiles.Profiles;
+import kult.legacy.klient.systems.commands.Command;
 import net.minecraft.command.CommandSource;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;

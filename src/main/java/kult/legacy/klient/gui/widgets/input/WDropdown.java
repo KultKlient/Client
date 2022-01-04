@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.widgets.input;
+package kult.legacy.klient.gui.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WRoot;
-import kultklient.legacy.client.gui.widgets.containers.WVerticalList;
-import kultklient.legacy.client.gui.widgets.pressable.WPressable;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WRoot;
+import kult.legacy.klient.gui.widgets.containers.WVerticalList;
+import kult.legacy.klient.gui.widgets.pressable.WPressable;
+import kult.legacy.klient.utils.Utils;
 
 public abstract class WDropdown<T> extends WPressable {
     public Runnable action;

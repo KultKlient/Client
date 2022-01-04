@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.entity.player;
+package kult.legacy.klient.events.entity.player;
 
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;

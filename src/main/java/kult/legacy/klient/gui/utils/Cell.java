@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.utils;
+package kult.legacy.klient.gui.utils;
 
-import kultklient.legacy.client.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.WWidget;
 
 public class Cell<T extends WWidget> {
     private final T widget;

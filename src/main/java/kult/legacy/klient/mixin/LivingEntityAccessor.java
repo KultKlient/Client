@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.fluid.Fluid;

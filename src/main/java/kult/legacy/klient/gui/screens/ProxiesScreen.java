@@ -1,26 +1,26 @@
-package kultklient.legacy.client.gui.screens;
+package kult.legacy.klient.gui.screens;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.WLabel;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WDropdown;
-import kultklient.legacy.client.gui.widgets.input.WIntEdit;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.gui.widgets.pressable.WMinus;
-import kultklient.legacy.client.systems.proxies.Proxy;
-import kultklient.legacy.client.systems.proxies.ProxyType;
-import kultklient.legacy.client.systems.proxies.Proxies;
-import kultklient.legacy.client.utils.misc.NbtUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.WLabel;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WDropdown;
+import kult.legacy.klient.gui.widgets.input.WIntEdit;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.gui.widgets.pressable.WMinus;
+import kult.legacy.klient.systems.proxies.Proxy;
+import kult.legacy.klient.systems.proxies.ProxyType;
+import kult.legacy.klient.systems.proxies.Proxies;
+import kult.legacy.klient.utils.misc.NbtUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ProxiesScreen extends WindowScreen {
     private final List<WCheckbox> checkboxes = new ArrayList<>();

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.TitleScreen;
@@ -29,6 +29,6 @@ public class TitleScreenMixin extends Screen {
     }
 
     private void initTitleScreen(boolean fade) {
-        client.setScreen(new kultklient.legacy.client.gui.screens.TitleScreen(fade));
+        client.setScreen(new kult.legacy.klient.gui.screens.TitleScreen(fade));
     }
 }

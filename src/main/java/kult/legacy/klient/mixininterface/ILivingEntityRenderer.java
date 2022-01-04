@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.LivingEntity;

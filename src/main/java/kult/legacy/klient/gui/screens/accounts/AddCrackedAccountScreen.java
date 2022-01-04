@@ -1,10 +1,10 @@
-package kultklient.legacy.client.gui.screens.accounts;
+package kult.legacy.klient.gui.screens.accounts;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.systems.accounts.Accounts;
-import kultklient.legacy.client.systems.accounts.types.CrackedAccount;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.systems.accounts.Accounts;
+import kult.legacy.klient.systems.accounts.types.CrackedAccount;
 
 public class AddCrackedAccountScreen extends AddAccountScreen {
     public AddCrackedAccountScreen(GuiTheme theme, AccountsScreen parent) {

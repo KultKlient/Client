@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.render.NoRender;
-import kultklient.legacy.client.utils.misc.EmptyIterator;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.NoRender;
+import kult.legacy.klient.utils.misc.EmptyIterator;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.item.map.MapIcon;
 import net.minecraft.item.map.MapState;
 import org.spongepowered.asm.mixin.Mixin;

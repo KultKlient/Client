@@ -1,7 +1,7 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
-import kultklient.legacy.client.utils.network.PacketUtils;
+import kult.legacy.klient.utils.network.PacketUtils;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;

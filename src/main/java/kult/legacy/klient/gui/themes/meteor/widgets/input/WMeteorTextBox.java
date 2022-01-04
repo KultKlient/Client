@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets.input;
+package kult.legacy.klient.gui.themes.meteor.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorGuiTheme;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.utils.CharFilter;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorGuiTheme;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.utils.CharFilter;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.utils.Utils;
 
 public class WMeteorTextBox extends WTextBox implements MeteorWidget {
     private boolean cursorVisible;

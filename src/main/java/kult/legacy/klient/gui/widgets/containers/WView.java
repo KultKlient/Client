@@ -1,8 +1,8 @@
-package kultklient.legacy.client.gui.widgets.containers;
+package kult.legacy.klient.gui.widgets.containers;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.utils.Utils;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_LEFT;
 

@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.movement.elytrafly;
+package kult.legacy.klient.systems.modules.movement.elytrafly;
 
-import kultklient.legacy.client.events.entity.player.PlayerMoveEvent;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.player.FindItemResult;
-import kultklient.legacy.client.utils.player.InvUtils;
+import kult.legacy.klient.events.entity.player.PlayerMoveEvent;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.player.FindItemResult;
+import kult.legacy.klient.utils.player.InvUtils;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

@@ -1,15 +1,15 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WMinus;
-import kultklient.legacy.client.systems.accounts.Account;
-import kultklient.legacy.client.systems.accounts.Accounts;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WMinus;
+import kult.legacy.klient.systems.accounts.Account;
+import kult.legacy.klient.systems.accounts.Accounts;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
+import kult.legacy.klient.utils.render.color.Color;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public abstract class WAccount extends WHorizontalList {
     public Runnable refreshScreenAction;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.tooltip;
+package kult.legacy.klient.utils.tooltip;
 
 import net.minecraft.block.entity.BannerBlockEntity;
 import net.minecraft.client.font.TextRenderer;
@@ -13,7 +13,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.BannerItem;
 import net.minecraft.item.ItemStack;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class BannerTooltipComponent implements KultKlientTooltipData, TooltipComponent {
     private final ItemStack banner;

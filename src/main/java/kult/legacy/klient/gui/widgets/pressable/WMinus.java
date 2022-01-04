@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.widgets.pressable;
+package kult.legacy.klient.gui.widgets.pressable;
 
 public abstract class WMinus extends WPressable {
     @Override

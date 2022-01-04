@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
-import kultklient.legacy.client.systems.enemies.Enemies;
-import kultklient.legacy.client.systems.enemies.Enemy;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.friends.Friend;
-import kultklient.legacy.client.systems.friends.Friends;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.systems.enemies.Enemies;
+import kult.legacy.klient.systems.enemies.Enemy;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.friends.Friend;
+import kult.legacy.klient.systems.friends.Friends;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.settings.*;
 import net.minecraft.client.network.PlayerListEntry;
 import net.minecraft.item.Items;
 import net.minecraft.text.LiteralText;

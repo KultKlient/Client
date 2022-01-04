@@ -1,7 +1,7 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
-import kultklient.legacy.client.gui.renderer.packer.TextureRegion;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.packer.TextureRegion;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.util.math.MatrixStack;
 
 public class Renderer2D {

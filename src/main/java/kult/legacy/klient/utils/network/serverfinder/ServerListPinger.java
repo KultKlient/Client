@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.network.serverfinder;
+package kult.legacy.klient.utils.network.serverfinder;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Iterables;

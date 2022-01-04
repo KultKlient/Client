@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
-import kultklient.legacy.client.utils.Version;
+import kult.legacy.klient.utils.Version;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class WindowUtils {
     public static class KultKlient {

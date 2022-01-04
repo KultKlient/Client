@@ -1,11 +1,11 @@
-package kultklient.legacy.client.utils.music;
+package kult.legacy.klient.utils.music;
 
 import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
 import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import kultklient.legacy.client.music.Music;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.music.Music;
+import kult.legacy.klient.utils.misc.ChatUtils;
 
 import java.util.function.Consumer;
 

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixin.indigo;
+package kult.legacy.klient.mixin.indigo;
 
 import net.fabricmc.fabric.impl.client.indigo.renderer.render.TerrainRenderContext;
 import org.spongepowered.asm.mixin.Mixin;

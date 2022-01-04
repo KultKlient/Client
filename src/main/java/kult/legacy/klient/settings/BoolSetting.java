@@ -1,4 +1,4 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.nbt.NbtCompound;

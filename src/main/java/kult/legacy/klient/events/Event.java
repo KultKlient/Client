@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events;
+package kult.legacy.klient.events;
 
 public class Event {
     private boolean cancelled = false;

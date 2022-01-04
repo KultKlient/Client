@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 public enum HorizontalDirection {
     South("South", "Z+", false, 0, 0, 1),

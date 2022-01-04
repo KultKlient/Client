@@ -1,13 +1,13 @@
-package kultklient.legacy.client.gui.renderer;
+package kult.legacy.klient.gui.renderer;
 
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.renderer.DrawMode;
-import kultklient.legacy.client.renderer.Mesh;
-import kultklient.legacy.client.renderer.ShaderMesh;
-import kultklient.legacy.client.renderer.Shaders;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.renderer.DrawMode;
+import kult.legacy.klient.renderer.Mesh;
+import kult.legacy.klient.renderer.ShaderMesh;
+import kult.legacy.klient.renderer.Shaders;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.util.math.MatrixStack;
 
 public class GuiDebugRenderer {

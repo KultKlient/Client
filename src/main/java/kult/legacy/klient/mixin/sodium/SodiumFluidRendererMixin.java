@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin.sodium;
+package kult.legacy.klient.mixin.sodium;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.world.Ambience;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.Ambience;
 import me.jellysquid.mods.sodium.client.model.light.LightPipeline;
 import me.jellysquid.mods.sodium.client.model.quad.ModelQuadColorProvider;
 import me.jellysquid.mods.sodium.client.model.quad.ModelQuadView;

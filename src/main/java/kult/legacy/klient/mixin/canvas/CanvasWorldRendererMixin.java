@@ -1,11 +1,11 @@
-package kultklient.legacy.client.mixin.canvas;
+package kult.legacy.klient.mixin.canvas;
 
 import grondag.canvas.render.world.CanvasWorldRenderer;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.BlockSelection;
-import kultklient.legacy.client.systems.modules.render.Fullbright;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.render.EntityShaders;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.BlockSelection;
+import kult.legacy.klient.systems.modules.render.Fullbright;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.render.EntityShaders;
 import net.minecraft.client.render.Camera;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.render.LightmapTextureManager;

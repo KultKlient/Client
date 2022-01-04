@@ -1,17 +1,17 @@
-package kultklient.legacy.client.gui.renderer;
+package kult.legacy.klient.gui.renderer;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.renderer.operations.TextOperation;
-import kultklient.legacy.client.gui.renderer.packer.GuiTexture;
-import kultklient.legacy.client.gui.renderer.packer.TexturePacker;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.renderer.Texture;
-import kultklient.legacy.client.utils.misc.Pool;
-import kultklient.legacy.client.utils.render.ByteTexture;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.renderer.operations.TextOperation;
+import kult.legacy.klient.gui.renderer.packer.GuiTexture;
+import kult.legacy.klient.gui.renderer.packer.TexturePacker;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.renderer.Texture;
+import kult.legacy.klient.utils.misc.Pool;
+import kult.legacy.klient.utils.render.ByteTexture;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import static kultklient.legacy.client.utils.Utils.*;
+import static kult.legacy.klient.utils.Utils.*;
 
 public class GuiRenderer {
     private static final Color WHITE = new Color(255, 255, 255);

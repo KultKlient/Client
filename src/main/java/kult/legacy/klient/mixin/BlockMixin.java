@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.movement.Slippy;
-import kultklient.legacy.client.systems.modules.render.Xray;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.movement.Slippy;
+import kult.legacy.klient.systems.modules.render.Xray;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

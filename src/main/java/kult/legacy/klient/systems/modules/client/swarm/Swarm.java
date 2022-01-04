@@ -1,17 +1,17 @@
-package kultklient.legacy.client.systems.modules.client.swarm;
+package kult.legacy.klient.systems.modules.client.swarm;
 
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.events.game.GameLeftEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.containers.WHorizontalList;
-import kultklient.legacy.client.gui.widgets.containers.WVerticalList;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.events.game.GameLeftEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.containers.WHorizontalList;
+import kult.legacy.klient.gui.widgets.containers.WVerticalList;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Items;
 import net.minecraft.util.Util;
 

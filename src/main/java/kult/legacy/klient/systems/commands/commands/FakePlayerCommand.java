@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.arguments.BoolArgumentType;
 import com.mojang.brigadier.arguments.FloatArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.client.FakePlayer;
-import kultklient.legacy.client.utils.entity.fakeplayer.FakePlayerManager;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.client.FakePlayer;
+import kult.legacy.klient.utils.entity.fakeplayer.FakePlayerManager;
 import net.minecraft.command.CommandSource;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;

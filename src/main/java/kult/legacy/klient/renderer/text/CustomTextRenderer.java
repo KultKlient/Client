@@ -1,8 +1,8 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
-import kultklient.legacy.client.renderer.*;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.renderer.*;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.util.math.MatrixStack;
 import org.lwjgl.BufferUtils;
 

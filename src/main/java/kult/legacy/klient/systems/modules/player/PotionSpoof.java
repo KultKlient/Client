@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.player;
+package kult.legacy.klient.systems.modules.player;
 
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.StatusEffectAmplifierMapSetting;
-import kultklient.legacy.client.mixin.StatusEffectInstanceAccessor;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.StatusEffectAmplifierMapSetting;
+import kult.legacy.klient.mixin.StatusEffectInstanceAccessor;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.Items;

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.entity.player;
+package kult.legacy.klient.events.entity.player;
 
-import kultklient.legacy.client.events.Event;
+import kult.legacy.klient.events.Event;
 import net.minecraft.entity.MovementType;
 import net.minecraft.util.math.Vec3d;
 

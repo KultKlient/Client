@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.meteor.widgets;
+package kult.legacy.klient.gui.themes.meteor.widgets;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.meteor.MeteorWidget;
-import kultklient.legacy.client.gui.widgets.WMultiLabel;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.meteor.MeteorWidget;
+import kult.legacy.klient.gui.widgets.WMultiLabel;
+import kult.legacy.klient.utils.render.color.Color;
 
 public class WMeteorMultiLabel extends WMultiLabel implements MeteorWidget {
     public WMeteorMultiLabel(String text, boolean title, double maxWidth) {

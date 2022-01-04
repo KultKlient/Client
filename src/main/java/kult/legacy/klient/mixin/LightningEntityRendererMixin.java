@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.world.Ambience;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.Ambience;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.LightningEntityRenderer;
 import net.minecraft.util.math.Matrix4f;

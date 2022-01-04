@@ -1,20 +1,20 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 
-import kultklient.legacy.client.mixin.WorldRendererAccessor;
-import kultklient.legacy.client.renderer.GL;
-import kultklient.legacy.client.renderer.PostProcessRenderer;
-import kultklient.legacy.client.renderer.Shader;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Chams;
-import kultklient.legacy.client.systems.modules.render.ESP;
+import kult.legacy.klient.mixin.WorldRendererAccessor;
+import kult.legacy.klient.renderer.GL;
+import kult.legacy.klient.renderer.PostProcessRenderer;
+import kult.legacy.klient.renderer.Shader;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Chams;
+import kult.legacy.klient.systems.modules.render.ESP;
 import net.minecraft.client.gl.Framebuffer;
 import net.minecraft.client.gl.SimpleFramebuffer;
 import net.minecraft.client.render.OutlineVertexConsumerProvider;
 import net.minecraft.client.render.WorldRenderer;
 import net.minecraft.entity.Entity;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class EntityShaders {
     // Overlay

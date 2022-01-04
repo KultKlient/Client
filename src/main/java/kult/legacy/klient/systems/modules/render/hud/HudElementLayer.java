@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules.render.hud;
+package kult.legacy.klient.systems.modules.render.hud;
 
-import kultklient.legacy.client.utils.render.AlignmentX;
-import kultklient.legacy.client.utils.render.AlignmentY;
+import kult.legacy.klient.utils.render.AlignmentX;
+import kult.legacy.klient.utils.render.AlignmentY;
 
 import java.util.ArrayList;
 import java.util.List;

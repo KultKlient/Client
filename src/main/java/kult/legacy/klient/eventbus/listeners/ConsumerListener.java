@@ -1,6 +1,6 @@
-package kultklient.legacy.client.eventbus.listeners;
+package kult.legacy.klient.eventbus.listeners;
 
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.eventbus.EventPriority;
 
 import java.util.function.Consumer;
 

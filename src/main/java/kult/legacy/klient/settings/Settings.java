@@ -1,12 +1,12 @@
-package kultklient.legacy.client.settings;
+package kult.legacy.klient.settings;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.widgets.containers.WContainer;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.render.color.RainbowColors;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.widgets.containers.WContainer;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.render.color.RainbowColors;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtList;

@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.misc.Twerk;
-import kultklient.legacy.client.systems.modules.movement.Sneak;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.misc.Twerk;
+import kult.legacy.klient.systems.modules.movement.Sneak;
 import net.minecraft.client.input.Input;
 import net.minecraft.client.input.KeyboardInput;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.eventbus.listeners;
+package kult.legacy.klient.eventbus.listeners;
 
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventHandler;
 
 import java.lang.invoke.LambdaMetafactory;
 import java.lang.invoke.MethodHandle;

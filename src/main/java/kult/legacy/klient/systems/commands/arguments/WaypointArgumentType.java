@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.commands.arguments;
+package kult.legacy.klient.systems.commands.arguments;
 
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.arguments.ArgumentType;
@@ -7,8 +7,8 @@ import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.DynamicCommandExceptionType;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import kultklient.legacy.client.systems.waypoints.Waypoint;
-import kultklient.legacy.client.systems.waypoints.Waypoints;
+import kult.legacy.klient.systems.waypoints.Waypoint;
+import kult.legacy.klient.systems.waypoints.Waypoints;
 import net.minecraft.command.CommandSource;
 import net.minecraft.text.LiteralText;
 

@@ -1,9 +1,9 @@
-package kultklient.legacy.client.gui.themes.kultklient.widgets.input;
+package kult.legacy.klient.gui.themes.kultklient.widgets.input;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientGuiTheme;
-import kultklient.legacy.client.gui.themes.kultklient.KultKlientWidget;
-import kultklient.legacy.client.gui.widgets.input.WSlider;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientGuiTheme;
+import kult.legacy.klient.gui.themes.kultklient.KultKlientWidget;
+import kult.legacy.klient.gui.widgets.input.WSlider;
 
 public class WKultKlientSlider extends WSlider implements KultKlientWidget {
     public WKultKlientSlider(double value, double min, double max) {

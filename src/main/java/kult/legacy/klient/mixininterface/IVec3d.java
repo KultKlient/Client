@@ -1,6 +1,6 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
-import kultklient.legacy.client.utils.misc.Vec3;
+import kult.legacy.klient.utils.misc.Vec3;
 import net.minecraft.util.math.Vec3i;
 
 public interface IVec3d {

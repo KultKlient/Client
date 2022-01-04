@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.render.marker;
+package kult.legacy.klient.systems.modules.render.marker;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.render.Render3DEvent;
-import kultklient.legacy.client.renderer.ShapeMode;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.render.Render3DEvent;
+import kult.legacy.klient.renderer.ShapeMode;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.utils.render.color.SettingColor;
 import net.minecraft.util.math.BlockPos;
 
 // TODO: Add outline and more modes

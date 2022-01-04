@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.mixininterface.IMatrix4f;
-import kultklient.legacy.client.utils.misc.Vec4;
+import kult.legacy.klient.mixininterface.IMatrix4f;
+import kult.legacy.klient.utils.misc.Vec4;
 import net.minecraft.util.math.Matrix4f;
 import net.minecraft.util.math.Vec3d;
 import org.spongepowered.asm.mixin.Mixin;

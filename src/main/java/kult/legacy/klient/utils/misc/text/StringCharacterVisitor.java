@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc.text;
+package kult.legacy.klient.utils.misc.text;
 
 import net.minecraft.text.CharacterVisitor;
 import net.minecraft.text.Style;

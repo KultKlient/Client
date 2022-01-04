@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.systems.modules.movement.ElytraBoost;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.movement.ElytraBoost;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.entity.projectile.FireworkRocketEntity;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.EntityHitResult;

@@ -1,11 +1,11 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.systems.commands.Commands;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.ChatUtils;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.systems.commands.Commands;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.ChatUtils;
 import net.minecraft.command.CommandSource;
 import net.minecraft.text.BaseText;
 import net.minecraft.text.ClickEvent;

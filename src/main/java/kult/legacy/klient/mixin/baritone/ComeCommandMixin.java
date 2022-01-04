@@ -1,15 +1,15 @@
-package kultklient.legacy.client.mixin.baritone;
+package kult.legacy.klient.mixin.baritone;
 
 import baritone.api.pathing.goals.GoalBlock;
 import baritone.command.defaults.ComeCommand;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.Freecam;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArgs;
 import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(ComeCommand.class)
 public class ComeCommandMixin {

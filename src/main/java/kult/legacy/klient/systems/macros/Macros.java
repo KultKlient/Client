@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.macros;
+package kult.legacy.klient.systems.macros;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.events.kultklientlegacy.MouseButtonEvent;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.events.kultklientlegacy.MouseButtonEvent;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.misc.input.KeyAction;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.ArrayList;

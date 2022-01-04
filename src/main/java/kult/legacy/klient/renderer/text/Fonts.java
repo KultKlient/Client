@@ -1,15 +1,15 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.files.StreamUtils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.files.StreamUtils;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Fonts {
     private static final String[] BUILTIN_FONTS = { "Comfortaa.ttf", "Verdana.ttf", "Arial.ttf", "Roboto.ttf", "Raleway.ttf", "Lato.ttf", "Comic Sans.ttf", "Tw Cen MT.ttf", "Pixelation.ttf", "JetBrains Mono.ttf", "Orange Juice.ttf",  };

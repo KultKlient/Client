@@ -1,14 +1,14 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.mixininterface.IVec3d;
-import kultklient.legacy.client.utils.player.FindItemResult;
-import kultklient.legacy.client.utils.player.InvUtils;
-import kultklient.legacy.client.utils.player.Rotations;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.mixininterface.IVec3d;
+import kult.legacy.klient.utils.player.FindItemResult;
+import kult.legacy.klient.utils.player.InvUtils;
+import kult.legacy.klient.utils.player.Rotations;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.block.enums.SlabType;
@@ -27,7 +27,7 @@ import net.minecraft.world.World;
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class BlockUtils {
     private static final Vec3d hitPos = new Vec3d(0, 0, 0);

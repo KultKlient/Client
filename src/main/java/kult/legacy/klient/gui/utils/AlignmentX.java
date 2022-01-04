@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.utils;
+package kult.legacy.klient.gui.utils;
 
 public enum AlignmentX {
     Left,

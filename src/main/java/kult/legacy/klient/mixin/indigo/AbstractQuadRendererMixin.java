@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin.indigo;
+package kult.legacy.klient.mixin.indigo;
 
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.WallHack;
-import kultklient.legacy.client.systems.modules.render.Xray;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.WallHack;
+import kult.legacy.klient.systems.modules.render.Xray;
 import net.fabricmc.fabric.impl.client.indigo.renderer.mesh.MutableQuadViewImpl;
 import net.fabricmc.fabric.impl.client.indigo.renderer.render.AbstractQuadRenderer;
 import net.fabricmc.fabric.impl.client.indigo.renderer.render.BlockRenderInfo;

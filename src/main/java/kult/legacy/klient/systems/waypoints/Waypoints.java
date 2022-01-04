@@ -1,25 +1,25 @@
-package kultklient.legacy.client.systems.waypoints;
+package kult.legacy.klient.systems.waypoints;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.events.game.GameLeftEvent;
-import kultklient.legacy.client.events.render.Render2DEvent;
-import kultklient.legacy.client.renderer.Renderer2D;
-import kultklient.legacy.client.renderer.text.TextRenderer;
-import kultklient.legacy.client.systems.System;
-import kultklient.legacy.client.systems.Systems;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.WaypointsModule;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.files.StreamUtils;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.misc.Vec3;
-import kultklient.legacy.client.utils.player.PlayerUtils;
-import kultklient.legacy.client.utils.render.NametagUtils;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.world.Dimension;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.eventbus.EventPriority;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.events.game.GameLeftEvent;
+import kult.legacy.klient.events.render.Render2DEvent;
+import kult.legacy.klient.renderer.Renderer2D;
+import kult.legacy.klient.renderer.text.TextRenderer;
+import kult.legacy.klient.systems.System;
+import kult.legacy.klient.systems.Systems;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.WaypointsModule;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.files.StreamUtils;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.misc.Vec3;
+import kult.legacy.klient.utils.player.PlayerUtils;
+import kult.legacy.klient.utils.render.NametagUtils;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.world.Dimension;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.eventbus.EventPriority;
 import net.minecraft.client.render.Camera;
 import net.minecraft.client.texture.AbstractTexture;
 import net.minecraft.client.texture.NativeImage;
@@ -32,7 +32,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.*;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Waypoints extends System<Waypoints> implements Iterable<Waypoint> {
     private static final String[] BUILTIN_ICONS = {"square", "circle", "triangle", "star", "diamond", "skull"};

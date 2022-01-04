@@ -1,7 +1,7 @@
-package kultklient.legacy.client.renderer;
+package kult.legacy.klient.renderer;
 
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.world.Dir;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.world.Dir;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;

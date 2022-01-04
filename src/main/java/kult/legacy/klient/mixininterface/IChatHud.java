@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
 import net.minecraft.text.Text;
 

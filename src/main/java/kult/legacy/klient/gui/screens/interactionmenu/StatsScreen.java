@@ -1,12 +1,12 @@
-package kultklient.legacy.client.gui.screens.interactionmenu;
+package kult.legacy.klient.gui.screens.interactionmenu;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.WindowScreen;
-import kultklient.legacy.client.gui.widgets.containers.WSection;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.WindowScreen;
+import kult.legacy.klient.gui.widgets.containers.WSection;
 import net.minecraft.client.resource.language.TranslationStorage;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;

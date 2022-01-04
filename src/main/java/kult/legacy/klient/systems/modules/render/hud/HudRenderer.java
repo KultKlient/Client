@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.modules.render.hud;
+package kult.legacy.klient.systems.modules.render.hud;
 
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.renderer.text.TextRenderer;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.renderer.text.TextRenderer;
+import kult.legacy.klient.utils.render.color.Color;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.MinecraftClient;
@@ -9,7 +9,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.MathHelper;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ContainerButtonWidget extends ButtonWidget {
     public ContainerButtonWidget(int x, int y, int width, int height, Text message, PressAction onPress) {

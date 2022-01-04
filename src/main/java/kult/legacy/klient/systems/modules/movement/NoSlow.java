@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.movement;
+package kult.legacy.klient.systems.modules.movement;
 
-import kultklient.legacy.client.events.entity.player.CobwebEntityCollisionEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.world.Timer;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.entity.player.CobwebEntityCollisionEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.Timer;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 

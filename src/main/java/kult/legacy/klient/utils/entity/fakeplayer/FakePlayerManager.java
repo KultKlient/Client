@@ -1,9 +1,9 @@
-package kultklient.legacy.client.utils.entity.fakeplayer;
+package kult.legacy.klient.utils.entity.fakeplayer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class FakePlayerManager {
     public static final List<FakePlayerEntity> fakePlayers = new ArrayList<>();

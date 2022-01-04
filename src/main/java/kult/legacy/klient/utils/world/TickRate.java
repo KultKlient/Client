@@ -1,10 +1,10 @@
-package kultklient.legacy.client.utils.world;
+package kult.legacy.klient.utils.world;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.GameJoinedEvent;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.GameJoinedEvent;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.network.packet.s2c.play.WorldTimeUpdateS2CPacket;
 
 import java.util.Arrays;

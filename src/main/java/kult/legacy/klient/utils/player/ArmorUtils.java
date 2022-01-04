@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;

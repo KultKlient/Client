@@ -1,7 +1,7 @@
-package kultklient.legacy.client.systems.modules.movement.elytrafly.modes;
+package kult.legacy.klient.systems.modules.movement.elytrafly.modes;
 
-import kultklient.legacy.client.systems.modules.movement.elytrafly.ElytraFlightMode;
-import kultklient.legacy.client.systems.modules.movement.elytrafly.ElytraFlightModes;
+import kult.legacy.klient.systems.modules.movement.elytrafly.ElytraFlightMode;
+import kult.legacy.klient.systems.modules.movement.elytrafly.ElytraFlightModes;
 
 public class Vanilla extends ElytraFlightMode {
     public Vanilla() {

@@ -1,6 +1,6 @@
-package kultklient.legacy.client.systems.proxies;
+package kult.legacy.klient.systems.proxies;
 
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 
 import java.net.InetSocketAddress;

@@ -1,16 +1,16 @@
-package kultklient.legacy.client.gui.widgets.input;
+package kult.legacy.klient.gui.widgets.input;
 
 import it.unimi.dsi.fastutil.doubles.DoubleArrayList;
 import it.unimi.dsi.fastutil.doubles.DoubleList;
-import kultklient.legacy.client.gui.GuiKeyEvents;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.CharFilter;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.GuiKeyEvents;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.CharFilter;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.MinecraftClient;
 import org.apache.commons.lang3.SystemUtils;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 import static org.lwjgl.glfw.GLFW.*;
 
 public abstract class WTextBox extends WWidget {

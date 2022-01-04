@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.modules.misc;
+package kult.legacy.klient.systems.modules.misc;
 
-import kultklient.legacy.client.events.world.PlaySoundEvent;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.settings.SoundEventListSetting;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.events.world.PlaySoundEvent;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.settings.SoundEventListSetting;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.item.Items;
 import net.minecraft.sound.SoundEvent;
 

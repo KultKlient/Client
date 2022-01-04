@@ -1,12 +1,12 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.gui.screen.ingame.InventoryScreen;
 import net.minecraft.command.CommandSource;
 import net.minecraft.command.argument.EnchantmentArgumentType;

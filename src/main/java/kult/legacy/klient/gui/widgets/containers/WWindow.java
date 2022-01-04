@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.widgets.containers;
+package kult.legacy.klient.gui.widgets.containers;
 
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.Cell;
-import kultklient.legacy.client.gui.utils.WindowConfig;
-import kultklient.legacy.client.gui.widgets.WWidget;
-import kultklient.legacy.client.gui.widgets.pressable.WTriangle;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.Cell;
+import kult.legacy.klient.gui.utils.WindowConfig;
+import kult.legacy.klient.gui.widgets.WWidget;
+import kult.legacy.klient.gui.widgets.pressable.WTriangle;
+import kult.legacy.klient.utils.Utils;
 
 import java.util.function.Consumer;
 

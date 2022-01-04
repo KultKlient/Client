@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import kultklient.legacy.client.utils.network.HTTP;
-import kultklient.legacy.client.utils.network.KultKlientExecutor;
+import kult.legacy.klient.utils.network.HTTP;
+import kult.legacy.klient.utils.network.KultKlientExecutor;
 import net.minecraft.util.Util;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.utils.URLEncodedUtils;

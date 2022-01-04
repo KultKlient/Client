@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.settings.ColorSetting;
-import kultklient.legacy.client.settings.EnumSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.misc.NameProtect;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.TripleTextHudElement;
-import kultklient.legacy.client.utils.render.color.SettingColor;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.settings.ColorSetting;
+import kult.legacy.klient.settings.EnumSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.misc.NameProtect;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.TripleTextHudElement;
+import kult.legacy.klient.utils.render.color.SettingColor;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

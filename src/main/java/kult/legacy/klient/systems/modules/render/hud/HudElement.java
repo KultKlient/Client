@@ -1,10 +1,10 @@
-package kultklient.legacy.client.systems.modules.render.hud;
+package kult.legacy.klient.systems.modules.render.hud;
 
-import kultklient.legacy.client.gui.screens.HudElementScreen;
-import kultklient.legacy.client.gui.tabs.builtin.HudTab;
-import kultklient.legacy.client.settings.Settings;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.gui.screens.HudElementScreen;
+import kult.legacy.klient.gui.tabs.builtin.HudTab;
+import kult.legacy.klient.settings.Settings;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.nbt.NbtCompound;
 

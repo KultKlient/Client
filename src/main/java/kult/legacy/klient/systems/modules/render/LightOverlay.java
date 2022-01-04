@@ -1,20 +1,20 @@
-package kultklient.legacy.client.systems.modules.render;
+package kult.legacy.klient.systems.modules.render;
 
-import kultklient.legacy.client.events.render.Render3DEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.renderer.DrawMode;
-import kultklient.legacy.client.renderer.Mesh;
-import kultklient.legacy.client.renderer.ShaderMesh;
-import kultklient.legacy.client.renderer.Shaders;
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.utils.misc.Pool;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.utils.world.BlockIterator;
-import kultklient.legacy.client.utils.world.BlockUtils;
-import kultklient.legacy.client.eventbus.EventHandler;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.events.render.Render3DEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.renderer.DrawMode;
+import kult.legacy.klient.renderer.Mesh;
+import kult.legacy.klient.renderer.ShaderMesh;
+import kult.legacy.klient.renderer.Shaders;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.utils.misc.Pool;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.utils.world.BlockIterator;
+import kult.legacy.klient.utils.world.BlockUtils;
+import kult.legacy.klient.eventbus.EventHandler;
+import kult.legacy.klient.settings.*;
 import net.minecraft.item.Items;
 import net.minecraft.util.math.BlockPos;
 

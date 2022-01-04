@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.utils.Version;
-import kultklient.legacy.client.utils.misc.LastServerInfo;
+import kult.legacy.klient.utils.Version;
+import kult.legacy.klient.utils.misc.LastServerInfo;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

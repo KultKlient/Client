@@ -1,20 +1,20 @@
-package kultklient.legacy.client.gui.tabs.builtin;
+package kult.legacy.klient.gui.tabs.builtin;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.tabs.Tab;
-import kultklient.legacy.client.gui.tabs.TabScreen;
-import kultklient.legacy.client.gui.tabs.WindowTabScreen;
-import kultklient.legacy.client.music.Music;
-import kultklient.legacy.client.renderer.text.Fonts;
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.misc.NbtUtils;
-import kultklient.legacy.client.utils.render.color.RainbowColors;
-import kultklient.legacy.client.settings.*;
-import kultklient.legacy.client.utils.render.prompts.YesNoPrompt;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.tabs.Tab;
+import kult.legacy.klient.gui.tabs.TabScreen;
+import kult.legacy.klient.gui.tabs.WindowTabScreen;
+import kult.legacy.klient.music.Music;
+import kult.legacy.klient.renderer.text.Fonts;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.misc.NbtUtils;
+import kult.legacy.klient.utils.render.color.RainbowColors;
+import kult.legacy.klient.settings.*;
+import kult.legacy.klient.utils.render.prompts.YesNoPrompt;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.option.KeyBinding;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ConfigTab extends Tab {
     public static ConfigScreen currentScreen;

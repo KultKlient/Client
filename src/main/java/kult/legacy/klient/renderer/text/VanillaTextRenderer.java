@@ -1,13 +1,13 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.render.BufferBuilder;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.math.Matrix4f;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class VanillaTextRenderer implements TextRenderer {
     public static final TextRenderer INSTANCE = new VanillaTextRenderer();

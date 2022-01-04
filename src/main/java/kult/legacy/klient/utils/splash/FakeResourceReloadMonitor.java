@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.splash;
+package kult.legacy.klient.utils.splash;
 
 import net.minecraft.resource.ResourceReload;
 import net.minecraft.util.Unit;

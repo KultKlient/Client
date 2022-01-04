@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.entity.fakeplayer;
+package kult.legacy.klient.utils.entity.fakeplayer;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.client.network.OtherClientPlayerEntity;
@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.UUID;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class FakePlayerEntity extends OtherClientPlayerEntity {
     public FakePlayerEntity(PlayerEntity player, String name, float health, boolean copyInv) {

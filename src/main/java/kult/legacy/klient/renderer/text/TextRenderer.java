@@ -1,7 +1,7 @@
-package kultklient.legacy.client.renderer.text;
+package kult.legacy.klient.renderer.text;
 
-import kultklient.legacy.client.systems.config.Config;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.systems.config.Config;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.util.math.MatrixStack;
 
 public interface TextRenderer {

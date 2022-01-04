@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
 public interface ICopyable<T extends ICopyable<T>> {
     T set(T value);

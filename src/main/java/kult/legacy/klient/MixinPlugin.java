@@ -1,6 +1,6 @@
-package kultklient.legacy.client;
+package kult.legacy.klient;
 
-import kultklient.legacy.client.asm.Asm;
+import kult.legacy.klient.asm.Asm;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;

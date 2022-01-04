@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.tooltip;
+package kult.legacy.klient.utils.tooltip;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.systems.modules.render.BetterTooltips;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.BetterTooltips;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.tooltip.TooltipComponent;
@@ -14,7 +14,7 @@ import net.minecraft.item.FilledMapItem;
 import net.minecraft.item.map.MapState;
 import net.minecraft.util.Identifier;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class MapTooltipComponent implements TooltipComponent, KultKlientTooltipData {
     private static final Identifier TEXTURE_MAP_BACKGROUND = new Identifier("textures/map/map_background.png");

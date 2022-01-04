@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems.modules.client;
+package kult.legacy.klient.systems.modules.client;
 
-import kultklient.legacy.client.systems.modules.Categories;
-import kultklient.legacy.client.systems.modules.Module;
-import kultklient.legacy.client.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.Categories;
+import kult.legacy.klient.systems.modules.Module;
+import kult.legacy.klient.systems.modules.Modules;
 import net.minecraft.item.Items;
 
 import java.util.ArrayList;

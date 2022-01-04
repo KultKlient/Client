@@ -1,14 +1,14 @@
-package kultklient.legacy.client.systems.accounts;
+package kult.legacy.klient.systems.accounts;
 
 import com.mojang.authlib.yggdrasil.YggdrasilEnvironment;
 import com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService;
-import kultklient.legacy.client.mixin.MinecraftClientAccessor;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.misc.NbtException;
+import kult.legacy.klient.mixin.MinecraftClientAccessor;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.NbtException;
 import net.minecraft.client.util.Session;
 import net.minecraft.nbt.NbtCompound;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public abstract class Account<T extends Account<?>> implements ISerializable<T> {
     protected AccountType type;

@@ -1,4 +1,4 @@
-package kultklient.legacy.client.eventbus;
+package kult.legacy.klient.eventbus;
 
 /**
  * Cancellable events need to implement this interface.

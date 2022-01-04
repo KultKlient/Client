@@ -1,14 +1,14 @@
-package kultklient.legacy.client.utils.render;
+package kult.legacy.klient.utils.render;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.mixininterface.IMatrix4f;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.Vec3;
-import kultklient.legacy.client.utils.misc.Vec4;
+import kult.legacy.klient.mixininterface.IMatrix4f;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.Vec3;
+import kult.legacy.klient.utils.misc.Vec4;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.math.Matrix4f;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class NametagUtils {
     private static final Vec4 vec4 = new Vec4();

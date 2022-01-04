@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.commands.commands;
+package kult.legacy.klient.systems.commands.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.suggestion.Suggestion;
 import com.mojang.brigadier.suggestion.Suggestions;
 import joptsimple.internal.Strings;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.events.world.TickEvent;
-import kultklient.legacy.client.systems.commands.Command;
-import kultklient.legacy.client.utils.world.TickRate;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.events.world.TickEvent;
+import kult.legacy.klient.systems.commands.Command;
+import kult.legacy.klient.utils.world.TickRate;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.client.network.ClientCommandSource;
 import net.minecraft.client.network.ServerAddress;
 import net.minecraft.client.network.ServerInfo;

@@ -1,13 +1,13 @@
-package kultklient.legacy.client.gui.widgets.music;
+package kult.legacy.klient.gui.widgets.music;
 
-import kultklient.legacy.client.gui.GuiTheme;
-import kultklient.legacy.client.gui.screens.music.PlaylistViewScreen;
-import kultklient.legacy.client.gui.tabs.builtin.MusicTab;
-import kultklient.legacy.client.gui.widgets.containers.WTable;
-import kultklient.legacy.client.gui.widgets.input.WTextBox;
-import kultklient.legacy.client.utils.music.SearchUtils;
+import kult.legacy.klient.gui.GuiTheme;
+import kult.legacy.klient.gui.screens.music.PlaylistViewScreen;
+import kult.legacy.klient.gui.tabs.builtin.MusicTab;
+import kult.legacy.klient.gui.widgets.containers.WTable;
+import kult.legacy.klient.gui.widgets.input.WTextBox;
+import kult.legacy.klient.utils.music.SearchUtils;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class WSearchBar extends WMusicWidget {
     @Override

@@ -1,13 +1,13 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.kultklientlegacy.CharTypedEvent;
-import kultklient.legacy.client.events.kultklientlegacy.KeyEvent;
-import kultklient.legacy.client.gui.GuiKeyEvents;
-import kultklient.legacy.client.gui.WidgetScreen;
-import kultklient.legacy.client.utils.misc.input.Input;
-import kultklient.legacy.client.utils.misc.input.KeyAction;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.kultklientlegacy.CharTypedEvent;
+import kult.legacy.klient.events.kultklientlegacy.KeyEvent;
+import kult.legacy.klient.gui.GuiKeyEvents;
+import kult.legacy.klient.gui.WidgetScreen;
+import kult.legacy.klient.utils.misc.input.Input;
+import kult.legacy.klient.utils.misc.input.KeyAction;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.Keyboard;
 import net.minecraft.client.MinecraftClient;
 import org.lwjgl.glfw.GLFW;

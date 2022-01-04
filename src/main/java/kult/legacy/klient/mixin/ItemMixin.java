@@ -1,7 +1,7 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.render.TooltipDataEvent;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.render.TooltipDataEvent;
 import net.minecraft.client.item.TooltipData;
 import net.minecraft.item.*;
 import org.spongepowered.asm.mixin.Mixin;

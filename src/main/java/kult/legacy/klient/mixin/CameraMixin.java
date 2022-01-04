@@ -1,13 +1,13 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
-import kultklient.legacy.client.mixininterface.ICamera;
-import kultklient.legacy.client.systems.modules.render.CameraTweaks;
-import kultklient.legacy.client.systems.modules.render.FreeLook;
-import kultklient.legacy.client.systems.modules.render.Freecam;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.render.InstantSneak;
-import kultklient.legacy.client.systems.modules.world.HighwayBuilder;
-import kultklient.legacy.client.utils.Utils;
+import kult.legacy.klient.mixininterface.ICamera;
+import kult.legacy.klient.systems.modules.render.CameraTweaks;
+import kult.legacy.klient.systems.modules.render.FreeLook;
+import kult.legacy.klient.systems.modules.render.Freecam;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.render.InstantSneak;
+import kult.legacy.klient.systems.modules.world.HighwayBuilder;
+import kult.legacy.klient.utils.Utils;
 import net.minecraft.client.render.Camera;
 import net.minecraft.entity.Entity;
 import net.minecraft.world.BlockView;

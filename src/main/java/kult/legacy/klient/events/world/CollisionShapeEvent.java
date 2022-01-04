@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.world;
+package kult.legacy.klient.events.world;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;

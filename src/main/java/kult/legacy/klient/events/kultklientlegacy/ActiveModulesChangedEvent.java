@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.kultklientlegacy;
+package kult.legacy.klient.events.kultklientlegacy;
 
 public class ActiveModulesChangedEvent {
     private static final ActiveModulesChangedEvent INSTANCE = new ActiveModulesChangedEvent();

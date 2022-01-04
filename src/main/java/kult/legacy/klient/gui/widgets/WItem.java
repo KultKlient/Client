@@ -1,11 +1,11 @@
-package kultklient.legacy.client.gui.widgets;
+package kult.legacy.klient.gui.widgets;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class WItem extends WWidget {
     protected ItemStack itemStack;

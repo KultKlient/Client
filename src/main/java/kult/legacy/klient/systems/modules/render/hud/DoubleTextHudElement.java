@@ -1,6 +1,6 @@
-package kultklient.legacy.client.systems.modules.render.hud;
+package kult.legacy.klient.systems.modules.render.hud;
 
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.render.color.Color;
 
 public abstract class DoubleTextHudElement extends HudElement {
     protected Color rightColor;

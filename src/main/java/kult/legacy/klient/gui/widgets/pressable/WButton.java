@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets.pressable;
+package kult.legacy.klient.gui.widgets.pressable;
 
-import kultklient.legacy.client.gui.renderer.packer.GuiTexture;
+import kult.legacy.klient.gui.renderer.packer.GuiTexture;
 
 public abstract class WButton extends WPressable {
     protected String text;

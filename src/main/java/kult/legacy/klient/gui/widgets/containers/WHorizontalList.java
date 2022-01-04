@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.widgets.containers;
+package kult.legacy.klient.gui.widgets.containers;
 
-import kultklient.legacy.client.gui.utils.Cell;
+import kult.legacy.klient.gui.utils.Cell;
 
 public class WHorizontalList extends WContainer {
     public double spacing = 3;

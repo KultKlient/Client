@@ -1,6 +1,6 @@
-package kultklient.legacy.client.gui.utils;
+package kult.legacy.klient.gui.utils;
 
-import kultklient.legacy.client.gui.GuiTheme;
+import kult.legacy.klient.gui.GuiTheme;
 
 public interface BaseWidget {
     GuiTheme getTheme();

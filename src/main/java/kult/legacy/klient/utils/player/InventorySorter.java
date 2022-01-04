@@ -1,7 +1,7 @@
-package kultklient.legacy.client.utils.player;
+package kult.legacy.klient.utils.player;
 
-import kultklient.legacy.client.mixininterface.ISlot;
-import kultklient.legacy.client.utils.render.PeekScreen;
+import kult.legacy.klient.mixininterface.ISlot;
+import kult.legacy.klient.utils.render.PeekScreen;
 import net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen;
 import net.minecraft.client.gui.screen.ingame.GenericContainerScreen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;

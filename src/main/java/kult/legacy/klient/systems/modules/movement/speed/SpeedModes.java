@@ -1,4 +1,4 @@
-package kultklient.legacy.client.systems.modules.movement.speed;
+package kult.legacy.klient.systems.modules.movement.speed;
 
 public enum SpeedModes {
     Strafe,

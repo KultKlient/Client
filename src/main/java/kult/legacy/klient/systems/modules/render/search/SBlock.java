@@ -1,15 +1,15 @@
-package kultklient.legacy.client.systems.modules.render.search;
+package kult.legacy.klient.systems.modules.render.search;
 
-import kultklient.legacy.client.events.render.Render3DEvent;
-import kultklient.legacy.client.renderer.ShapeMode;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.events.render.Render3DEvent;
+import kult.legacy.klient.renderer.ShapeMode;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class SBlock {
     private static final BlockPos.Mutable blockPos = new BlockPos.Mutable();

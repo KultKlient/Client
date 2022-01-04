@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.tooltip;
+package kult.legacy.klient.utils.tooltip;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import kultklient.legacy.client.utils.render.RenderUtils;
-import kultklient.legacy.client.utils.render.color.Color;
+import kult.legacy.klient.utils.render.RenderUtils;
+import kult.legacy.klient.utils.render.color.Color;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.tooltip.TooltipComponent;

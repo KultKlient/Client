@@ -1,16 +1,16 @@
-package kultklient.legacy.client.gui;
+package kult.legacy.klient.gui;
 
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.ints.IntList;
-import kultklient.legacy.client.gui.renderer.GuiRenderer;
-import kultklient.legacy.client.gui.utils.SettingsWidgetFactory;
-import kultklient.legacy.client.gui.widgets.input.*;
-import kultklient.legacy.client.gui.widgets.pressable.WButton;
-import kultklient.legacy.client.gui.widgets.pressable.WCheckbox;
-import kultklient.legacy.client.gui.screens.settings.*;
-import kultklient.legacy.client.gui.widgets.*;
-import kultklient.legacy.client.gui.widgets.containers.*;
-import kultklient.legacy.client.settings.*;
+import kult.legacy.klient.gui.renderer.GuiRenderer;
+import kult.legacy.klient.gui.utils.SettingsWidgetFactory;
+import kult.legacy.klient.gui.widgets.input.*;
+import kult.legacy.klient.gui.widgets.pressable.WButton;
+import kult.legacy.klient.gui.widgets.pressable.WCheckbox;
+import kult.legacy.klient.gui.screens.settings.*;
+import kult.legacy.klient.gui.widgets.*;
+import kult.legacy.klient.gui.widgets.containers.*;
+import kult.legacy.klient.settings.*;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class DefaultSettingsWidgetFactory implements SettingsWidgetFactory {
     protected interface Factory {

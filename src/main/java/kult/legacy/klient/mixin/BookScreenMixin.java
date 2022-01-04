@@ -1,8 +1,8 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import it.unimi.dsi.fastutil.io.FastByteArrayOutputStream;
-import kultklient.legacy.client.gui.GuiThemes;
-import kultklient.legacy.client.gui.screens.EditBookTitleAndAuthorScreen;
+import kult.legacy.klient.gui.GuiThemes;
+import kult.legacy.klient.gui.screens.EditBookTitleAndAuthorScreen;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ingame.BookScreen;
 import net.minecraft.client.gui.widget.ButtonWidget;
@@ -26,7 +26,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.Base64;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 @Mixin(BookScreen.class)
 public class BookScreenMixin extends Screen {

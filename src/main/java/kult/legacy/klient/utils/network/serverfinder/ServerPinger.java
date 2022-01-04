@@ -1,6 +1,6 @@
-package kultklient.legacy.client.utils.network.serverfinder;
+package kult.legacy.klient.utils.network.serverfinder;
 
-import kultklient.legacy.client.gui.screens.server.servermanager.ServerFinderScreen;
+import kult.legacy.klient.gui.screens.server.servermanager.ServerFinderScreen;
 
 import java.net.UnknownHostException;
 import java.util.ArrayList;

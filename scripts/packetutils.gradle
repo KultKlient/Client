@@ -104,7 +104,7 @@ task generatePacketUtils() {
         // Generate PacketUtils.java
         def writer = new File("src/main/java/kultklient/legacy/client/utils/network/PacketUtils.java").newWriter()
 
-        writer << "package kultklient.legacy.client.utils.network;\n\n"
+        writer << "package kult.legacy.klient.utils.network;\n\n"
 
         //   Write imports
         writer << "import com.google.common.collect.Iterators;\n"

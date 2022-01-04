@@ -1,4 +1,4 @@
-package kultklient.legacy.client.events.entity.player;
+package kult.legacy.klient.events.entity.player;
 
 public class InteractEvent {
     private static final InteractEvent INSTANCE = new InteractEvent();

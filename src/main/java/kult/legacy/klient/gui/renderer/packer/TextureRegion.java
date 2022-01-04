@@ -1,4 +1,4 @@
-package kultklient.legacy.client.gui.renderer.packer;
+package kult.legacy.klient.gui.renderer.packer;
 
 public class TextureRegion {
     public double x1, y1;

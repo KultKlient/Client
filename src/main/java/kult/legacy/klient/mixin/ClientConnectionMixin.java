@@ -1,12 +1,12 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import io.netty.channel.ChannelHandlerContext;
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.packets.PacketEvent;
-import kultklient.legacy.client.events.world.ConnectToServerEvent;
-import kultklient.legacy.client.systems.modules.misc.AntiPacketKick;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.systems.modules.world.HighwayBuilder;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.packets.PacketEvent;
+import kult.legacy.klient.events.world.ConnectToServerEvent;
+import kult.legacy.klient.systems.modules.misc.AntiPacketKick;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.systems.modules.world.HighwayBuilder;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.network.Packet;
 import net.minecraft.network.listener.PacketListener;

@@ -1,13 +1,13 @@
-package kultklient.legacy.client.systems.modules.render.hud.modules;
+package kult.legacy.klient.systems.modules.render.hud.modules;
 
-import kultklient.legacy.client.settings.ColorSetting;
-import kultklient.legacy.client.settings.Setting;
-import kultklient.legacy.client.settings.SettingGroup;
-import kultklient.legacy.client.systems.modules.render.hud.DoubleTextHudElement;
-import kultklient.legacy.client.systems.modules.render.hud.HUD;
-import kultklient.legacy.client.systems.modules.render.hud.TripleTextHudElement;
-import kultklient.legacy.client.utils.render.color.SettingColor;
-import kultklient.legacy.client.utils.world.TickRate;
+import kult.legacy.klient.settings.ColorSetting;
+import kult.legacy.klient.settings.Setting;
+import kult.legacy.klient.settings.SettingGroup;
+import kult.legacy.klient.systems.modules.render.hud.DoubleTextHudElement;
+import kult.legacy.klient.systems.modules.render.hud.HUD;
+import kult.legacy.klient.systems.modules.render.hud.TripleTextHudElement;
+import kult.legacy.klient.utils.render.color.SettingColor;
+import kult.legacy.klient.utils.world.TickRate;
 
 public class LagNotifierHud extends DoubleTextHudElement {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();

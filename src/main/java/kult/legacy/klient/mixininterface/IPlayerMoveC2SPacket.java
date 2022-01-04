@@ -1,4 +1,4 @@
-package kultklient.legacy.client.mixininterface;
+package kult.legacy.klient.mixininterface;
 
 public interface IPlayerMoveC2SPacket {
     int getNbt();

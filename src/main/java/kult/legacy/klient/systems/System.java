@@ -1,8 +1,8 @@
-package kultklient.legacy.client.systems;
+package kult.legacy.klient.systems;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.utils.files.StreamUtils;
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.utils.files.StreamUtils;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtIo;
 

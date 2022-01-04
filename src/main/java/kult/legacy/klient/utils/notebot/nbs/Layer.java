@@ -1,4 +1,4 @@
-package kultklient.legacy.client.utils.notebot.nbs;
+package kult.legacy.klient.utils.notebot.nbs;
 
 import java.util.HashMap;
 

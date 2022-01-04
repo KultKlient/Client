@@ -1,6 +1,6 @@
-package kultklient.legacy.client.events.kultklientlegacy;
+package kult.legacy.klient.events.kultklientlegacy;
 
-import kultklient.legacy.client.events.Cancellable;
+import kult.legacy.klient.events.Cancellable;
 
 public class MouseScrollEvent extends Cancellable {
     private static final MouseScrollEvent INSTANCE = new MouseScrollEvent();

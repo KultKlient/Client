@@ -1,7 +1,7 @@
-package kultklient.legacy.client.events.game;
+package kult.legacy.klient.events.game;
 
-import kultklient.legacy.client.events.Cancellable;
-import kultklient.legacy.client.events.packets.PacketEvent;
+import kult.legacy.klient.events.Cancellable;
+import kult.legacy.klient.events.packets.PacketEvent;
 import net.minecraft.client.gui.screen.Screen;
 
 public class OpenScreenEvent extends Cancellable {

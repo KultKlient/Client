@@ -1,8 +1,8 @@
-package kultklient.legacy.client.utils.misc;
+package kult.legacy.klient.utils.misc;
 
-import kultklient.legacy.client.KultKlientLegacy;
-import kultklient.legacy.client.events.game.ResourcePacksReloadedEvent;
-import kultklient.legacy.client.eventbus.EventHandler;
+import kult.legacy.klient.KultKlientLegacy;
+import kult.legacy.klient.events.game.ResourcePacksReloadedEvent;
+import kult.legacy.klient.eventbus.EventHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.sound.WeightedSoundSet;
 import net.minecraft.enchantment.Enchantment;
@@ -20,7 +20,7 @@ import org.apache.commons.lang3.text.WordUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-import static kultklient.legacy.client.KultKlientLegacy.mc;
+import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class Names {
     private static final Map<StatusEffect, String> statusEffectNames = new HashMap<>(16);

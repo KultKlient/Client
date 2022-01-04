@@ -1,12 +1,12 @@
-package kultklient.legacy.client.mixin;
+package kult.legacy.klient.mixin;
 
 import com.mojang.blaze3d.platform.GlStateManager;
-import kultklient.legacy.client.systems.modules.world.Ambience;
-import kultklient.legacy.client.utils.render.EntityShaders;
-import kultklient.legacy.client.utils.render.color.Color;
-import kultklient.legacy.client.systems.modules.Modules;
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.systems.modules.render.*;
+import kult.legacy.klient.systems.modules.world.Ambience;
+import kult.legacy.klient.utils.render.EntityShaders;
+import kult.legacy.klient.utils.render.color.Color;
+import kult.legacy.klient.systems.modules.Modules;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.systems.modules.render.*;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gl.Framebuffer;
 import net.minecraft.client.render.*;

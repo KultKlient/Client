@@ -1,6 +1,6 @@
-package kultklient.legacy.client.systems.enemies;
+package kult.legacy.klient.systems.enemies;
 
-import kultklient.legacy.client.utils.misc.ISerializable;
+import kult.legacy.klient.utils.misc.ISerializable;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
 

@@ -1,9 +1,9 @@
-package kultklient.legacy.client.systems.modules.render.hud;
+package kult.legacy.klient.systems.modules.render.hud;
 
-import kultklient.legacy.client.utils.Utils;
-import kultklient.legacy.client.utils.misc.ISerializable;
-import kultklient.legacy.client.utils.render.AlignmentX;
-import kultklient.legacy.client.utils.render.AlignmentY;
+import kult.legacy.klient.utils.Utils;
+import kult.legacy.klient.utils.misc.ISerializable;
+import kult.legacy.klient.utils.render.AlignmentX;
+import kult.legacy.klient.utils.render.AlignmentY;
 import net.minecraft.nbt.AbstractNbtNumber;
 import net.minecraft.nbt.NbtCompound;
 
