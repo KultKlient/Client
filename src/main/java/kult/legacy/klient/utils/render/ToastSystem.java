@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 import static kult.legacy.klient.KultKlientLegacy.mc;
 
 public class ToastSystem implements Toast {
-    public static final int TITLE_COLOR = Color.fromRGBA(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 255);
+    public static final int TITLE_COLOR = Color.fromRGBA(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 255);
     public static final int TEXT_COLOR = Color.fromRGBA(255, 255, 255, 255);
 
     private ItemStack icon;

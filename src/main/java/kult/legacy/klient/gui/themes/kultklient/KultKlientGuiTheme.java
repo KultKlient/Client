@@ -89,8 +89,8 @@ public class KultKlientGuiTheme extends GuiTheme {
 
     // Colors
 
-    public final Setting<SettingColor> mainColor = color("main", "Main color of the GUI.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b));
-    public final Setting<SettingColor> checkboxColor = color("checkbox", "Color of checkbox.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b));
+    public final Setting<SettingColor> mainColor = color("main", "Main color of the GUI.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b));
+    public final Setting<SettingColor> checkboxColor = color("checkbox", "Color of checkbox.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b));
     public final Setting<SettingColor> plusColor = color("plus", "Color of plus button.", new SettingColor(255, 255, 255));
     public final Setting<SettingColor> minusColor = color("minus", "Color of minus button.", new SettingColor(255, 255, 255));
 
@@ -98,7 +98,7 @@ public class KultKlientGuiTheme extends GuiTheme {
 
     public final Setting<SettingColor> textColor = color(sgTextColors, "text", "Color of text.", new SettingColor(255, 255, 255));
     public final Setting<SettingColor> textSecondaryColor = color(sgTextColors, "text-secondary-text", "Color of secondary text.", new SettingColor(150, 150, 150));
-    public final Setting<SettingColor> textHighlightColor = color(sgTextColors, "text-highlight", "Color of text highlighting.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b));
+    public final Setting<SettingColor> textHighlightColor = color(sgTextColors, "text-highlight", "Color of text highlighting.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b));
     public final Setting<SettingColor> titleTextColor = color(sgTextColors, "title-text", "Color of title text.", new SettingColor(255, 255, 255));
     public final Setting<SettingColor> loggedInColor = color(sgTextColors, "logged-in-text", "Color of logged in account name in Account Manager.", new SettingColor(45, 225, 45));
 
@@ -107,12 +107,12 @@ public class KultKlientGuiTheme extends GuiTheme {
     public final ThreeStateColorSetting backgroundColor = new ThreeStateColorSetting(
             sgBackgroundColors,
             "background",
-            new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 100),
-            new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 135),
-            new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 175)
+            new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 100),
+            new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 135),
+            new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 175)
     );
 
-    public final Setting<SettingColor> moduleBackground = color(sgBackgroundColors, "module-background", "Color of module background when active.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 200));
+    public final Setting<SettingColor> moduleBackground = color(sgBackgroundColors, "module-background", "Color of module background when active.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 200));
 
     // Outline
 
@@ -135,9 +135,9 @@ public class KultKlientGuiTheme extends GuiTheme {
     public final ThreeStateColorSetting scrollbarColor = new ThreeStateColorSetting(
         sgScrollbar,
         "Scrollbar",
-        new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 100),
-        new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 150),
-        new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 150)
+        new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 100),
+        new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 150),
+        new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 150)
     );
 
     // Slider
@@ -145,13 +145,13 @@ public class KultKlientGuiTheme extends GuiTheme {
     public final ThreeStateColorSetting sliderHandle = new ThreeStateColorSetting(
         sgSlider,
         "slider-handle",
-        new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b),
+        new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b),
         new SettingColor(255, 100, 125),
         new SettingColor(255, 100, 125)
     );
 
-    public final Setting<SettingColor> sliderLeft = color(sgSlider, "slider-left", "Color of slider left part.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b));
-    public final Setting<SettingColor> sliderRight = color(sgSlider, "slider-right", "Color of slider right part.", new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b));
+    public final Setting<SettingColor> sliderLeft = color(sgSlider, "slider-left", "Color of slider left part.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b));
+    public final Setting<SettingColor> sliderRight = color(sgSlider, "slider-right", "Color of slider right part.", new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b));
 
     public KultKlientGuiTheme() {
         super("KultKlient");

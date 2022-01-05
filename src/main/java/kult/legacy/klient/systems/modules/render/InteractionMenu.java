@@ -65,7 +65,7 @@ public class InteractionMenu extends Module {
     public final Setting<SettingColor> dotColor = sgStyle.add(new ColorSetting.Builder()
         .name("dot-color")
         .description("Color of the dot when.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 

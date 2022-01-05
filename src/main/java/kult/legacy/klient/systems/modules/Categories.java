@@ -13,7 +13,7 @@ public class Categories {
     public static final Category Crash = new Category("Crash", Items.BARRIER, Color.fromRGBA(255, 75, 75, 255));
     public static final Category Chat = new Category("Chat", Items.BEACON, Color.fromRGBA(255, 255, 255, 255));
     public static final Category Misc = new Category("Misc", Items.NETHER_STAR, Color.fromRGBA(0, 50, 175, 255));
-    public static final Category Client = new Category("Client", Items.COMMAND_BLOCK, Color.fromRGBA(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 255));
+    public static final Category Client = new Category("Client", Items.COMMAND_BLOCK, Color.fromRGBA(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 255));
 
     public static boolean REGISTERING;
 

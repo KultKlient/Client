@@ -67,7 +67,7 @@ public class Background extends Module {
     // Screens
 
     private final Setting<Boolean> kultklient = sgScreens.add(new BoolSetting.Builder()
-        .name("matHax")
+        .name("kultKlent")
         .description("Applies blur to KultKlient screens.")
         .defaultValue(true)
         .build()

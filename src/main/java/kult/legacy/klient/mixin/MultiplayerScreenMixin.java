@@ -79,7 +79,7 @@ public abstract class MultiplayerScreenMixin extends Screen implements IMultipla
         if (!(Modules.get() == null) && !Modules.get().isActive(NameProtect.class) && KultKlientLegacy.isDeveloper(client.getSession().getUuid())) {
             drawStringWithShadow(matrices, textRenderer, space, loggedInAsLength + spaceLength + loggedNameLength + 2, (int) y, GRAY);
             drawStringWithShadow(matrices, textRenderer, loggedOpenDeveloper, loggedInAsLength + spaceLength + loggedNameLength + spaceLength + 2, (int) y, GRAY);
-            drawStringWithShadow(matrices, textRenderer, loggedDeveloper, loggedInAsLength + spaceLength + loggedNameLength + spaceLength + loggedOpenDeveloperLength + 2, (int) y, KultKlientLegacy.INSTANCE.MATHAX_COLOR_INT);
+            drawStringWithShadow(matrices, textRenderer, loggedDeveloper, loggedInAsLength + spaceLength + loggedNameLength + spaceLength + loggedOpenDeveloperLength + 2, (int) y, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR_INT);
             drawStringWithShadow(matrices, textRenderer, loggedCloseDeveloper, loggedInAsLength + spaceLength + loggedNameLength + spaceLength + loggedOpenDeveloperLength + loggedDeveloperLength + 2, (int) y, GRAY);
         }
 

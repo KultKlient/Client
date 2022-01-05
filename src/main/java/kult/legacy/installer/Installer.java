@@ -1,8 +1,8 @@
-package kultklient.legacy.installer;
+package kult.legacy.installer;
 
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatLightLaf;
-import kultklient.legacy.installer.layouts.VerticalLayout;
+import kult.legacy.installer.layouts.VerticalLayout;
 import net.fabricmc.installer.Main;
 import net.fabricmc.installer.util.MetaHandler;
 import net.fabricmc.installer.util.Reference;

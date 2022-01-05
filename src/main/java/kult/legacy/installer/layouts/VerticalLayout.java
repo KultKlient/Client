@@ -1,4 +1,4 @@
-package kultklient.legacy.installer.layouts;
+package kult.legacy.installer.layouts;
 
 import java.awt.*; import java.util.*;
 

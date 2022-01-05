@@ -18,7 +18,7 @@ import net.minecraft.util.Identifier;
 public class WatermarkHud extends TripleTextHudElement {
     private final ClientSpoof cs = Modules.get().get(ClientSpoof.class);
 
-    private static final Identifier MATHAX_LOGO = new Identifier("kultklientlegacy", "textures/icons/icon.png");
+    private static final Identifier KULTKLIENT_LOGO = new Identifier("kultklientlegacy", "textures/icons/icon.png");
     private static final Identifier METEOR_LOGO = new Identifier("kultklientlegacy", "textures/icons/meteor.png");
     private final Color TEXTURE_COLOR = new Color(255, 255, 255, 255);
 
@@ -129,7 +129,7 @@ public class WatermarkHud extends TripleTextHudElement {
 
         Identifier LOGO;
         if (cs.changeWatermarkIcon()) LOGO = METEOR_LOGO;
-        else LOGO = MATHAX_LOGO;
+        else LOGO = KULTKLIENT_LOGO;
 
         GL.bindTexture(LOGO);
         Renderer2D.TEXTURE.begin();

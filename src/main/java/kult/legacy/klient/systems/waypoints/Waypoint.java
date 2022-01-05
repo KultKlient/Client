@@ -14,7 +14,7 @@ import java.util.Map;
 public class Waypoint implements ISerializable<Waypoint> {
     public String name = "popbob's base";
     public String icon = "Square";
-    public SettingColor color = new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b);
+    public SettingColor color = new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b);
 
     public int x, y, z;
 

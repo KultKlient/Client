@@ -1,4 +1,4 @@
-package kultklient.legacy.installer;
+package kult.legacy.installer;
 
 import java.io.BufferedReader;
 import java.io.IOException;

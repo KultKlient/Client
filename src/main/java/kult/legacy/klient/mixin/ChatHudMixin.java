@@ -33,7 +33,7 @@ public abstract class ChatHudMixin implements IChatHud {
     private static final Pattern BARITONE_PREFIX_REGEX = Pattern.compile("^\\s{0,2}(<[0-9]{1,2}:[0-9]{1,2}>\\s)?\\[Baritone\\]");
     private static final Pattern BARITONE_PREFIX_REGEX_2 = Pattern.compile("^\\s{0,2}(<[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}>\\s)?\\[Baritone\\]");
 
-    private static final Identifier MATHAXLEGACY_CHAT_ICON = new Identifier("kultklientlegacy", "textures/icons/icon64.png");
+    private static final Identifier KULTKLIENTLEGACY_CHAT_ICON = new Identifier("kultklientlegacy", "textures/icons/icon64.png");
     private static final Identifier METEOR_CHAT_ICON = new Identifier("kultklientlegacy", "textures/icons/meteor64.png");
     private static final Identifier BARITONE_CHAT_ICON = new Identifier("kultklientlegacy", "textures/icons/baritone.png");
 
@@ -121,7 +121,7 @@ public abstract class ChatHudMixin implements IChatHud {
 
         if (getKultKlient().matcher(line).find()) {
             if (cs.changeChatFeedbackIcon()) RenderSystem.setShaderTexture(0, METEOR_CHAT_ICON);
-            else RenderSystem.setShaderTexture(0, MATHAXLEGACY_CHAT_ICON);
+            else RenderSystem.setShaderTexture(0, KULTKLIENTLEGACY_CHAT_ICON);
             matrices.push();
             RenderSystem.setShaderColor(1, 1, 1, opacity);
             matrices.translate(0, y, 0);
@@ -132,7 +132,7 @@ public abstract class ChatHudMixin implements IChatHud {
             return;
         } else if (getKultKlient2().matcher(line).find()) {
             if (cs.changeChatFeedbackIcon()) RenderSystem.setShaderTexture(0, METEOR_CHAT_ICON);
-            else RenderSystem.setShaderTexture(0, MATHAXLEGACY_CHAT_ICON);
+            else RenderSystem.setShaderTexture(0, KULTKLIENTLEGACY_CHAT_ICON);
             matrices.push();
             RenderSystem.setShaderColor(1, 1, 1, opacity);
             matrices.translate(0, y, 0);

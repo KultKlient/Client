@@ -154,28 +154,28 @@ public class TNTAura extends Module {
     private final Setting<SettingColor> obsidianSideColor = sgObsidianRender.add(new ColorSetting.Builder()
         .name("side-color")
         .description("The side color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 70))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 70))
         .build()
     );
 
     private final Setting<SettingColor> obsidianLineColor = sgObsidianRender.add(new ColorSetting.Builder()
         .name("line-color")
         .description("The line color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 
     private final Setting<SettingColor> obsidianNextSideColor = sgObsidianRender.add(new ColorSetting.Builder()
         .name("next-side-color")
         .description("The side color of the next block to be placed.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 75))
         .build()
     );
 
     private final Setting<SettingColor> obsidianNextLineColor = sgObsidianRender.add(new ColorSetting.Builder()
         .name("next-line-color")
         .description("The line color of the next block to be placed.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b))
         .build()
     );
 
@@ -197,14 +197,14 @@ public class TNTAura extends Module {
     private final Setting<SettingColor> tntSideColor = sgTNTRender.add(new ColorSetting.Builder()
         .name("side-color")
         .description("The side color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 75))
         .build()
     );
 
     private final Setting<SettingColor> tntLineColor = sgTNTRender.add(new ColorSetting.Builder()
         .name("line-color")
         .description("The line color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 
@@ -227,14 +227,14 @@ public class TNTAura extends Module {
     private final Setting<SettingColor> breakSideColor = sgBreakRender.add(new ColorSetting.Builder()
         .name("side-color")
         .description("The side color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 75))
         .build()
     );
 
     private final Setting<SettingColor> breakLineColor = sgBreakRender.add(new ColorSetting.Builder()
         .name("line-color")
         .description("The line color of the target block rendering.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b))
         .build()
     );
 

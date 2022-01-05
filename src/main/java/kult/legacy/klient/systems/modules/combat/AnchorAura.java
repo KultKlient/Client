@@ -234,7 +234,7 @@ public class AnchorAura extends Module {
     private final Setting<SettingColor> placeSideColor = sgRender.add(new ColorSetting.Builder()
         .name("place-side-color")
         .description("The side color for positions to be placed.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 75))
         .visible(renderPlace::get)
         .build()
     );
@@ -242,7 +242,7 @@ public class AnchorAura extends Module {
     private final Setting<SettingColor> placeLineColor = sgRender.add(new ColorSetting.Builder()
         .name("place-line-color")
         .description("The line color for positions to be placed.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 255))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 255))
         .visible(renderPlace::get)
         .build()
     );
@@ -257,7 +257,7 @@ public class AnchorAura extends Module {
     private final Setting<SettingColor> breakSideColor = sgRender.add(new ColorSetting.Builder()
         .name("break-side-color")
         .description("The side color for anchors to be broken.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 75))
         .visible(renderBreak::get)
         .build()
     );
@@ -265,7 +265,7 @@ public class AnchorAura extends Module {
     private final Setting<SettingColor> breakLineColor = sgRender.add(new ColorSetting.Builder()
         .name("break-line-color")
         .description("The line color for anchors to be broken.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 255))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 255))
         .visible(renderBreak::get)
         .build()
     );

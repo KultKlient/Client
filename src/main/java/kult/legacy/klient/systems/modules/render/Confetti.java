@@ -18,14 +18,14 @@ public class Confetti extends Module {
     private final Setting<SettingColor> colorOne = sgGeneral.add(new ColorSetting.Builder()
         .name("first")
         .description("The first confetti color to change.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 
     private final Setting<SettingColor> colorTwo = sgGeneral.add(new ColorSetting.Builder()
         .name("second")
         .description("The second confetti color to change.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b))
         .build()
     );
 

@@ -1,4 +1,4 @@
-package kultklient.legacy.installer;
+package kult.legacy.installer;
 
 import org.json.JSONException;
 import org.json.JSONObject;

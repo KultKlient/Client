@@ -106,7 +106,7 @@ public class ChatUtils {
         BaseText prefix = new LiteralText("");
 
         if (cs.changeChatFeedbackColor()) text.setStyle(text.getStyle().withColor(cs.chatFeedbackTextColor.get().getPacked()));
-        else text.setStyle(text.getStyle().withColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.getPacked()));
+        else text.setStyle(text.getStyle().withColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.getPacked()));
 
         prefix.setStyle(prefix.getStyle().withFormatting(Formatting.GRAY));
         prefix.append("[");

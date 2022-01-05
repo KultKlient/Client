@@ -30,11 +30,11 @@ public abstract class SplashOverlayMixin {
     @Final
     static Identifier LOGO;
 
-    private static Identifier MATHAX_LOGO = new Identifier("kultklientlegacy", "textures/splash/splash.png");
+    private static Identifier KULTKLIENT_LOGO = new Identifier("kultklientlegacy", "textures/splash/splash.png");
 
     @Inject(method = "init(Lnet/minecraft/client/MinecraftClient;)V", at = @At("HEAD"), cancellable = true)
     private static void init(MinecraftClient client, CallbackInfo info) {
-        LOGO = MATHAX_LOGO;
+        LOGO = KULTKLIENT_LOGO;
         info.cancel();
     }
 

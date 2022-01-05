@@ -324,7 +324,7 @@ public class Utils {
 
     public static String nameToTitle(String name) {
         name = Arrays.stream(name.split("-")).map(StringUtils::capitalize).collect(Collectors.joining(" "));
-        String title = name.replace("Mathax", "KultKlient");
+        String title = name.replace("KultKlient", "KultKlient");
         title = title.replace("Aac", "AAC");
         title = title.replace("Uuid", "UUID");
         title = title.replace("Keybind", "KeyBind");

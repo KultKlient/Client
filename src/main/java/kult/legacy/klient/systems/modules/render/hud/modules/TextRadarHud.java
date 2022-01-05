@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class TextRadarHud extends HudElement {
-    private static final Identifier MATHAX_LOGO = new Identifier("kultklientlegacy", "textures/icons/icon.png");
+    private static final Identifier KULTKLIENT_LOGO = new Identifier("kultklientlegacy", "textures/icons/icon.png");
     private Color TEXTURE_COLOR = new Color(255, 255, 255, 255);
 
     private final Object2IntMap<UUID> totemPopMap = new Object2IntOpenHashMap<>();
@@ -177,7 +177,7 @@ public class TextRadarHud extends HudElement {
             if (showDev) {
                 text += "    " + entity.getEntityName();
 
-                GL.bindTexture(MATHAX_LOGO);
+                GL.bindTexture(KULTKLIENT_LOGO);
                 Renderer2D.TEXTURE.begin();
                 Renderer2D.TEXTURE.texQuad(x - renderer.textWidth(text) + 2, y, 16, 16, TEXTURE_COLOR);
                 Renderer2D.TEXTURE.render(null);

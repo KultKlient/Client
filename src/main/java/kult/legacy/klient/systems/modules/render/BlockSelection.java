@@ -69,14 +69,14 @@ public class BlockSelection extends Module {
     private final Setting<SettingColor> sideColor = sgColors.add(new ColorSetting.Builder()
         .name("side")
         .description("The side color.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b, 75))
         .build()
     );
 
     private final Setting<SettingColor> sideTwoColor = sgColors.add(new ColorSetting.Builder()
         .name("side-2")
         .description("The second side color.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b, 75))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b, 75))
         .visible(cool::get)
         .build()
     );
@@ -84,14 +84,14 @@ public class BlockSelection extends Module {
     private final Setting<SettingColor> lineColor = sgColors.add(new ColorSetting.Builder()
         .name("line")
         .description("The line color.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 
     private final Setting<SettingColor> lineTwoColor = sgColors.add(new ColorSetting.Builder()
         .name("line-2")
         .description("The second line color.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_BACKGROUND_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_BACKGROUND_COLOR.b))
         .visible(cool::get)
        .build()
     );

@@ -48,7 +48,7 @@ import java.util.*;
 /*/----------------------------------------------------------------------------------------------------------------/*/
 
 public class Nametags extends Module {
-    private static final Identifier MATHAX_ICON = new Identifier("kultklientlegacy", "textures/icons/icon.png");
+    private static final Identifier KULTKLIENT_ICON = new Identifier("kultklientlegacy", "textures/icons/icon.png");
     private final Color TEXTURE_COLOR = new Color(255, 255, 255, 255);
 
     private final Color WHITE = new Color(255, 255, 255);
@@ -90,7 +90,7 @@ public class Nametags extends Module {
     private final Setting<SettingColor> names = sgGeneral.add(new ColorSetting.Builder()
         .name("color")
         .description("The color of the nametag names.")
-        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.MATHAX_COLOR.r, KultKlientLegacy.INSTANCE.MATHAX_COLOR.g, KultKlientLegacy.INSTANCE.MATHAX_COLOR.b))
+        .defaultValue(new SettingColor(KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.r, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.g, KultKlientLegacy.INSTANCE.KULTKLIENT_COLOR.b))
         .build()
     );
 
@@ -551,7 +551,7 @@ public class Nametags extends Module {
         } else if (displayItemEnchants.get()) displayItemEnchants.set(false);
 
         if (showDev) {
-            GL.bindTexture(MATHAX_ICON);
+            GL.bindTexture(KULTKLIENT_ICON);
             Renderer2D.TEXTURE.begin();
             double textHeight = text.getHeight() / 2;
             Renderer2D.TEXTURE.texQuad(-width / 2 + 2, -textHeight * 2, 16, 16, TEXTURE_COLOR);
