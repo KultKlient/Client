@@ -102,7 +102,7 @@ task generatePacketUtils() {
         }
 
         // Generate PacketUtils.java
-        def writer = new File("src/main/java/kultklient/client/utils/network/PacketUtils.java").newWriter()
+        def writer = new File("src/main/java/kult/klient/utils/network/PacketUtils.java").newWriter()
 
         writer << "package kult.klient.utils.network;\n\n"
 
