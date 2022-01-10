@@ -49,11 +49,11 @@ public class GameRendererTransformer extends AsmTransformer {
     }
 
     private void generateEventCall(InsnList insns, AbstractInsnNode loadPreviousFov) {
-        insns.add(new FieldInsnNode(Opcodes.GETSTATIC, "kultklient/client/KultKlient", "EVENT_BUS", "Lkultklient/client/eventbus/IEventBus;"));
+        insns.add(new FieldInsnNode(Opcodes.GETSTATIC, "kult/klient/KultKlient", "EVENT_BUS", "Lkult/klient/eventbus/IEventBus;"));
         insns.add(loadPreviousFov);
-        insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC, "kultklient/client/events/render/GetFovEvent", "get", "(D)Lkultklient/client/events/render/GetFovEvent;"));
-        insns.add(new MethodInsnNode(Opcodes.INVOKEINTERFACE, "kultklient/client/eventbus/IEventBus", "post", "(Ljava/lang/Object;)Ljava/lang/Object;"));
-        insns.add(new TypeInsnNode(Opcodes.CHECKCAST, "kultklient/client/events/render/GetFovEvent"));
-        insns.add(new FieldInsnNode(Opcodes.GETFIELD, "kultklient/client/events/render/GetFovEvent", "fov", "D"));
+        insns.add(new MethodInsnNode(Opcodes.INVOKESTATIC, "kult/klient/events/render/GetFovEvent", "get", "(D)Lkult/klient/events/render/GetFovEvent;"));
+        insns.add(new MethodInsnNode(Opcodes.INVOKEINTERFACE, "kult/klient/eventbus/IEventBus", "post", "(Ljava/lang/Object;)Ljava/lang/Object;"));
+        insns.add(new TypeInsnNode(Opcodes.CHECKCAST, "kult/klient/events/render/GetFovEvent"));
+        insns.add(new FieldInsnNode(Opcodes.GETFIELD, "kult/klient/events/render/GetFovEvent", "fov", "D"));
     }
 }
