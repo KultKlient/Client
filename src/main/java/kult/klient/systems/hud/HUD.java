@@ -8,6 +8,7 @@ import kult.klient.gui.screens.hud.HudElementScreen;
 import kult.klient.settings.*;
 import kult.klient.systems.System;
 import kult.klient.systems.hud.modules.*;
+import kult.klient.utils.misc.NbtUtils;
 import kult.klient.utils.render.AlignmentX;
 import kult.klient.utils.render.AlignmentY;
 import kult.klient.utils.render.color.SettingColor;
