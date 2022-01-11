@@ -16,7 +16,7 @@ import sun.misc.Unsafe;
 import java.lang.reflect.Field;
 
 public class MixinPlugin implements IMixinConfigPlugin {
-    private static final String mixinPackage = "mathax.client.mixin";
+    private static final String mixinPackage = "kult.klient.mixin";
 
     private static boolean loaded;
 

@@ -2,7 +2,7 @@
   "required": false,
   "package": "kult.klient.mixin.indigo",
   "compatibilityLevel": "JAVA_17",
-  "plugin": "mathax.client.MixinPlugin",
+  "plugin": "kult.klient.MixinPlugin",
   "client": [
     "AbstractQuadRendererMixin",
     "TerrainRenderContextMixin"
