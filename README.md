@@ -1,7 +1,9 @@
 <h1 align="center">
-  NOTE: We are currently remaking MatHax completely, to see the source code of MatHax 1.7.6 and lower just change the branch.
+  We are currently remaking MatHax completely!
 </h1>
-
+  <h3 align="center">
+  To see the source code of Mathax 1.7.6 and lower, click <a href="https://github.com/MatHax/Client/tree/1.19">here.</a>
+  </h3>
 <div align="center">
   <img src="https://mathaxclient.xyz/resources/images/icons/icon.png" width="150" height="150">
 </div>
