@@ -1,7 +1,7 @@
 <h1 align="center">
   We are currently remaking MatHax completely!
 </h1>
-<p>
+<p align="center">
     MatHax v2.0.0 for Minecraft Fabric 1.19.3 is about 72% complete.
 </p>
 <h3 align="center">
