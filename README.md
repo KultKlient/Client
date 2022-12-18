@@ -3,7 +3,7 @@
 </h1>
 <h3 align="center">
   MatHax v2.0.0 for Minecraft Fabric 1.19.3 is about 77% complete.<br>
-  To see the source code of Mathax 1.7.6 and lower, click <a href="https://github.com/MatHax/Client/tree/1.19">here.</a>
+  To see the source code of Mathax 1.7.6 and lower, click <a href="https://github.com/MatHax/Client/tree/1.19">here. (Build wont work because of outdated dependencies)</a>
 </h3>
 <div align="center">
   <img src="https://mathaxclient.xyz/resources/images/icons/icon.png" width="150" height="150">
